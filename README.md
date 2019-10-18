@@ -11,11 +11,11 @@ The current temporary repo is https://github.com/garciadelcastillo/gh-rhinocommo
 
 Communication: gsd-tech.slack.com -> #gh-rhinocommon-dictionary
 
-Main coordination spreadsheet (team members must request write access):
-https://docs.google.com/spreadsheets/d/1Gf_T6670az2LLLSVnmHSDwO9KBYYz49FnieBwi__29A/edit#gid=0
-
 Main Dropbox folder for files and data (while we transition to Github). Email @garciadelcastillo with your dbx email to be invited:
 https://www.dropbox.com/sh/yvl29taguo0d4y8/AADug4Zm2psviZNwrcZm8hMxa?dl=0
+
+Main coordination spreadsheet (team members must request write access):
+https://docs.google.com/spreadsheets/d/1Gf_T6670az2LLLSVnmHSDwO9KBYYz49FnieBwi__29A/edit#gid=0
 
 
 ## Team members
