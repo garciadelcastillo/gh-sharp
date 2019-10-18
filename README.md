@@ -4,10 +4,12 @@ This is a placeholder `README` for the GH > RhinoCommon Dictionary project.
 
 We will update this with documentation, references, links and credits.
 
-The current temporary repo is https://github.com/garciadelcastillo/gh-rhino-dict, please ping @garciadelcastillo with your Github username to request access to it.
+The current temporary repo is https://github.com/garciadelcastillo/gh-rhinocommon-dict, please ping @garciadelcastillo with your Github username to request access to it.
 
 
 ## Resources
+
+Communication: gsd-tech.slack.com -> #gh-rhinocommon-dictionary
 
 Main coordination spreadsheet (team members must request write access):
 https://docs.google.com/spreadsheets/d/1Gf_T6670az2LLLSVnmHSDwO9KBYYz49FnieBwi__29A/edit#gid=0
