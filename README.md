@@ -22,6 +22,9 @@ https://docs.google.com/spreadsheets/d/1Gf_T6670az2LLLSVnmHSDwO9KBYYz49FnieBwi__
 
 Please add your Github username to this list:
 
-- @garciadelcastillo
-- @krihterlunn
-- @mirahx24
+@garciadelcastillo
+@krichterlunn
+@mirahx24
+@joonhaeng-code
+@erinlinseyhunt
+@suekim37
