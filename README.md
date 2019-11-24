@@ -20,8 +20,13 @@ https://docs.google.com/spreadsheets/d/1Gf_T6670az2LLLSVnmHSDwO9KBYYz49FnieBwi__
 ## Credits
 
 [@garciadelcastillo](https://github.com/garciadelcastillo)
+
 [@krihterlunn](https://github.com/krihterlunn)
+
 [@mirahx24](https://github.com/mirahx24)
+
 [@joonhaeng-code](https://github.com/joonhaeng-code)
+
 [@erinlinseyhunt](https://github.com/erinlinseyhunt)
+
 [@suekim37](https://github.com/suekim37)
