@@ -1,5 +1,7 @@
 # GH#
 
+![](assets/logo/GH#_logo_Color_512.png)
+
 This is a placeholder `README` for the GH > RhinoCommon Dictionary project.
 
 We will update this with documentation, references, links and credits.
