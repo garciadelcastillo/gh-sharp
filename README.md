@@ -17,13 +17,11 @@ Main coordination spreadsheet (team members must request write access):
 https://docs.google.com/spreadsheets/d/1Gf_T6670az2LLLSVnmHSDwO9KBYYz49FnieBwi__29A/edit#gid=0
 
 
-## Team members
+## Credits
 
-Please add your Github username to this list:
-
-@garciadelcastillo
-@krihterlunn
-@mirahx24 
-@joonhaeng-code 
-@erinlinseyhunt 
-@suekim37
+[@garciadelcastillo](https://github.com/garciadelcastillo)
+[@krihterlunn](https://github.com/krihterlunn)
+[@mirahx24](https://github.com/mirahx24)
+[@joonhaeng-code](https://github.com/joonhaeng-code)
+[@erinlinseyhunt](https://github.com/erinlinseyhunt)
+[@suekim37](https://github.com/suekim37)
