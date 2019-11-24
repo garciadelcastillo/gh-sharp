@@ -10,7 +10,7 @@ This is an educational project initiated by students/faculty of GSD-6338: Introd
 
 [@garciadelcastillo](https://github.com/garciadelcastillo)
 
-[@krihterlunn](https://github.com/krihterlunn)
+[@krichterlunn](https://github.com/krichterlunn)
 
 [@mirahx24](https://github.com/mirahx24)
 
