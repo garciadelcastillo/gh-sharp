@@ -1,15 +1,14 @@
-# GH-RhinoCommon Dictionary
+# GH#
 
 This is a placeholder `README` for the GH > RhinoCommon Dictionary project.
 
 We will update this with documentation, references, links and credits.
 
-The current temporary repo is https://github.com/garciadelcastillo/gh-rhinocommon-dict, please ping @garciadelcastillo with your Github username to request access to it.
-
+The current temporary repo is https://github.com/garciadelcastillo/gh-sharp, please ping @garciadelcastillo with your Github username to request access to it.
 
 ## Resources
 
-Communication: gsd-tech.slack.com -> #gh-rhinocommon-dictionary
+Communication: gsd-tech.slack.com -> #gh-sharp
 
 Main Dropbox folder for files and data (while we transition to Github). Email @garciadelcastillo with your dbx email to be invited:
 https://www.dropbox.com/sh/yvl29taguo0d4y8/AADug4Zm2psviZNwrcZm8hMxa?dl=0
@@ -23,8 +22,8 @@ https://docs.google.com/spreadsheets/d/1Gf_T6670az2LLLSVnmHSDwO9KBYYz49FnieBwi__
 Please add your Github username to this list:
 
 @garciadelcastillo
-@krichterlunn
-@mirahx24
-@joonhaeng-code
-@erinlinseyhunt
+@krihterlunn
+@mirahx24 
+@joonhaeng-code 
+@erinlinseyhunt 
 @suekim37
