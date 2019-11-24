@@ -1,6 +1,6 @@
 # GH#
 
-![](assets/logo/GH#_logo_Color_512.png)
+![](assets/logo/ghsharp_logo_color_512.png)
 
 This is a placeholder `README` for the GH > RhinoCommon Dictionary project.
 
