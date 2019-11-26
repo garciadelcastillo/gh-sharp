@@ -10,7 +10,7 @@
       <Revision>2</Revision>
     </item>
   </items>
-  <chunks count="2">
+  <chunks count="1">
     <chunk name="Definition">
       <items count="1">
         <item name="plugin_version" type_name="gh_version" type_code="80">
@@ -48,10 +48,10 @@
             <chunk name="Projection">
               <items count="2">
                 <item name="Target" type_name="gh_drawing_point" type_code="30">
-                  <X>-111</X>
-                  <Y>89</Y>
+                  <X>-10</X>
+                  <Y>66</Y>
                 </item>
-                <item name="Zoom" type_name="gh_single" type_code="5">1</item>
+                <item name="Zoom" type_name="gh_single" type_code="5">0.7225004</item>
               </items>
             </chunk>
             <chunk name="Views">
@@ -398,11 +398,11 @@
                     </item>
                     <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
                       <X>526.4524</X>
-                      <Y>370.6478</Y>
+                      <Y>370.6477</Y>
                     </item>
                     <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
                       <X>181.7991</X>
-                      <Y>370.6478</Y>
+                      <Y>370.6477</Y>
                     </item>
                     <item name="Description" type_name="gh_string" type_code="10">A quick note</item>
                     <item name="Font" type_name="gh_string" type_code="10">Microsoft Sans Serif</item>
@@ -3784,59 +3784,6 @@ using System.Drawing;
             </chunk>
             <chunk name="Object" index="42">
               <items count="2">
-                <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
-                <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
-              </items>
-              <chunks count="1">
-                <chunk name="Container">
-                  <items count="13">
-                    <item name="Bold" type_name="gh_bool" type_code="1">true</item>
-                    <item name="Ca" type_name="gh_drawing_pointf" type_code="31">
-                      <X>100.1591</X>
-                      <Y>2103.076</Y>
-                    </item>
-                    <item name="Cb" type_name="gh_drawing_pointf" type_code="31">
-                      <X>1130.542</X>
-                      <Y>2103.076</Y>
-                    </item>
-                    <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
-                      <X>1130.542</X>
-                      <Y>2104.809</Y>
-                    </item>
-                    <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
-                      <X>100.1591</X>
-                      <Y>2104.809</Y>
-                    </item>
-                    <item name="Description" type_name="gh_string" type_code="10">A quick note</item>
-                    <item name="Font" type_name="gh_string" type_code="10">Microsoft Sans Serif</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">88743ac1-e01e-4818-bda6-3a47cd1a2ce9</item>
-                    <item name="Italic" type_name="gh_bool" type_code="1">false</item>
-                    <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
-                    <item name="NickName" type_name="gh_string" type_code="10">Scribble</item>
-                    <item name="Size" type_name="gh_single" type_code="5">25</item>
-                    <item name="Text" type_name="gh_string" type_code="10">______________________________________________________________________</item>
-                  </items>
-                  <chunks count="1">
-                    <chunk name="Attributes">
-                      <items count="2">
-                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>95.15913</X>
-                          <Y>2098.076</Y>
-                          <W>1040.383</W>
-                          <H>11.7334</H>
-                        </item>
-                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>100.1591</X>
-                          <Y>2103.076</Y>
-                        </item>
-                      </items>
-                    </chunk>
-                  </chunks>
-                </chunk>
-              </chunks>
-            </chunk>
-            <chunk name="Object" index="43">
-              <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">2696bd14-3fb5-4750-827f-86df6c31d664</item>
                 <item name="Name" type_name="gh_string" type_code="10">Mesh Box</item>
               </items>
@@ -4106,7 +4053,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="44">
+            <chunk name="Object" index="43">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">59e0b89a-e487-49f8-bab8-b5bab16be14c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Panel</item>
@@ -4167,7 +4114,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="45">
+            <chunk name="Object" index="44">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
@@ -4212,7 +4159,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="46">
+            <chunk name="Object" index="45">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
@@ -4257,7 +4204,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="47">
+            <chunk name="Object" index="46">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
@@ -4302,7 +4249,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="48">
+            <chunk name="Object" index="47">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">a9a8ebd2-fff5-4c44-a8f5-739736d129ba</item>
                 <item name="Name" type_name="gh_string" type_code="10">C# Script</item>
@@ -4622,7 +4569,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="49">
+            <chunk name="Object" index="48">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">c9482db6-bea9-448d-98ff-fed6d69a8efc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Box</item>
@@ -4700,7 +4647,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="50">
+            <chunk name="Object" index="49">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">59e0b89a-e487-49f8-bab8-b5bab16be14c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Panel</item>
@@ -4761,7 +4708,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="51">
+            <chunk name="Object" index="50">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">8adbf481-7589-4a40-b490-006531ea001d</item>
                 <item name="Name" type_name="gh_string" type_code="10">Mesh Plane</item>
@@ -5003,7 +4950,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="52">
+            <chunk name="Object" index="51">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">abf9c670-5462-4cd8-acb3-f1ab0256dbf3</item>
                 <item name="Name" type_name="gh_string" type_code="10">Rectangle</item>
@@ -5074,7 +5021,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="53">
+            <chunk name="Object" index="52">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
@@ -5119,7 +5066,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="54">
+            <chunk name="Object" index="53">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
@@ -5164,7 +5111,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="55">
+            <chunk name="Object" index="54">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">59e0b89a-e487-49f8-bab8-b5bab16be14c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Panel</item>
@@ -5225,7 +5172,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="56">
+            <chunk name="Object" index="55">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">59e0b89a-e487-49f8-bab8-b5bab16be14c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Panel</item>
@@ -5286,7 +5233,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="57">
+            <chunk name="Object" index="56">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">a9a8ebd2-fff5-4c44-a8f5-739736d129ba</item>
                 <item name="Name" type_name="gh_string" type_code="10">C# Script</item>
@@ -5570,7 +5517,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="58">
+            <chunk name="Object" index="57">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">59e0b89a-e487-49f8-bab8-b5bab16be14c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Panel</item>
@@ -5631,7 +5578,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="59">
+            <chunk name="Object" index="58">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">59e0b89a-e487-49f8-bab8-b5bab16be14c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Panel</item>
@@ -5692,7 +5639,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="60">
+            <chunk name="Object" index="59">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">0a391eac-5048-443c-9c1b-f592299b6dd6</item>
                 <item name="Name" type_name="gh_string" type_code="10">Mesh Sphere</item>
@@ -5949,7 +5896,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="61">
+            <chunk name="Object" index="60">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">4f8984c4-7c7a-4d69-b0a2-183cbb330d20</item>
                 <item name="Name" type_name="gh_string" type_code="10">Plane</item>
@@ -6014,7 +5961,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="62">
+            <chunk name="Object" index="61">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
@@ -6059,7 +6006,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="63">
+            <chunk name="Object" index="62">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
@@ -6104,7 +6051,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="64">
+            <chunk name="Object" index="63">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
@@ -6149,7 +6096,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="65">
+            <chunk name="Object" index="64">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">a9a8ebd2-fff5-4c44-a8f5-739736d129ba</item>
                 <item name="Name" type_name="gh_string" type_code="10">C# Script</item>
@@ -6498,7 +6445,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="66">
+            <chunk name="Object" index="65">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">59e0b89a-e487-49f8-bab8-b5bab16be14c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Panel</item>
@@ -6559,7 +6506,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="67">
+            <chunk name="Object" index="66">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">59e0b89a-e487-49f8-bab8-b5bab16be14c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Panel</item>
@@ -6620,7 +6567,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="68">
+            <chunk name="Object" index="67">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">76f85ee4-5a88-4511-8ba7-30df07e50533</item>
                 <item name="Name" type_name="gh_string" type_code="10">Mesh Sphere Ex</item>
@@ -6760,7 +6707,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="69">
+            <chunk name="Object" index="68">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">a9a8ebd2-fff5-4c44-a8f5-739736d129ba</item>
                 <item name="Name" type_name="gh_string" type_code="10">C# Script</item>
@@ -6991,7 +6938,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="70">
+            <chunk name="Object" index="69">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">4f8984c4-7c7a-4d69-b0a2-183cbb330d20</item>
                 <item name="Name" type_name="gh_string" type_code="10">Plane</item>
@@ -7056,7 +7003,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="71">
+            <chunk name="Object" index="70">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
@@ -7101,7 +7048,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="72">
+            <chunk name="Object" index="71">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">57da07bd-ecab-415d-9d86-af36d7073abc</item>
                 <item name="Name" type_name="gh_string" type_code="10">Number Slider</item>
@@ -7146,7 +7093,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="73">
+            <chunk name="Object" index="72">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">59e0b89a-e487-49f8-bab8-b5bab16be14c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Panel</item>
@@ -7207,7 +7154,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="74">
+            <chunk name="Object" index="73">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">59e0b89a-e487-49f8-bab8-b5bab16be14c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Panel</item>
@@ -7268,7 +7215,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="75">
+            <chunk name="Object" index="74">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">2844fec5-142d-4381-bd5d-4cbcef6d6fed</item>
                 <item name="Name" type_name="gh_string" type_code="10">Sketch</item>
@@ -7408,7 +7355,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="76">
+            <chunk name="Object" index="75">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">2844fec5-142d-4381-bd5d-4cbcef6d6fed</item>
                 <item name="Name" type_name="gh_string" type_code="10">Sketch</item>
@@ -7699,7 +7646,7 @@ using System.Drawing;
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="77">
+            <chunk name="Object" index="76">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">59e0b89a-e487-49f8-bab8-b5bab16be14c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Panel</item>
@@ -7767,16 +7714,62 @@ More information: {{project link}}
                 </chunk>
               </chunks>
             </chunk>
+            <chunk name="Object" index="77">
+              <items count="2">
+                <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
+                <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Container">
+                  <items count="13">
+                    <item name="Bold" type_name="gh_bool" type_code="1">true</item>
+                    <item name="Ca" type_name="gh_drawing_pointf" type_code="31">
+                      <X>97.48427</X>
+                      <Y>2107.369</Y>
+                    </item>
+                    <item name="Cb" type_name="gh_drawing_pointf" type_code="31">
+                      <X>2157.982</X>
+                      <Y>2107.369</Y>
+                    </item>
+                    <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
+                      <X>2157.982</X>
+                      <Y>2114.302</Y>
+                    </item>
+                    <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
+                      <X>97.48427</X>
+                      <Y>2114.302</Y>
+                    </item>
+                    <item name="Description" type_name="gh_string" type_code="10">A quick note</item>
+                    <item name="Font" type_name="gh_string" type_code="10">Microsoft Sans Serif</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">7bb329f7-d0cf-415d-86f9-c5d66a644b77</item>
+                    <item name="Italic" type_name="gh_bool" type_code="1">false</item>
+                    <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
+                    <item name="NickName" type_name="gh_string" type_code="10">Scribble</item>
+                    <item name="Size" type_name="gh_single" type_code="5">100</item>
+                    <item name="Text" type_name="gh_string" type_code="10">___________________________________</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Attributes">
+                      <items count="2">
+                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                          <X>92.48427</X>
+                          <Y>2102.369</Y>
+                          <W>2070.497</W>
+                          <H>16.93359</H>
+                        </item>
+                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                          <X>97.48427</X>
+                          <Y>2107.369</Y>
+                        </item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
           </chunks>
         </chunk>
       </chunks>
-    </chunk>
-    <chunk name="Thumbnail">
-      <items count="1">
-        <item name="Thumbnail" type_name="gh_drawing_bitmap" type_code="37">
-          <bitmap length="8553">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</bitmap>
-        </item>
-      </items>
     </chunk>
   </chunks>
 </Archive>

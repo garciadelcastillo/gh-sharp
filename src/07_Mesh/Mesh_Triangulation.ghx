@@ -10,7 +10,7 @@
       <Revision>2</Revision>
     </item>
   </items>
-  <chunks count="2">
+  <chunks count="1">
     <chunk name="Definition">
       <items count="1">
         <item name="plugin_version" type_name="gh_version" type_code="80">
@@ -48,10 +48,10 @@
             <chunk name="Projection">
               <items count="2">
                 <item name="Target" type_name="gh_drawing_point" type_code="30">
-                  <X>188</X>
-                  <Y>-569</Y>
+                  <X>18</X>
+                  <Y>186</Y>
                 </item>
-                <item name="Zoom" type_name="gh_single" type_code="5">0.183492824</item>
+                <item name="Zoom" type_name="gh_single" type_code="5">0.298787534</item>
               </items>
             </chunk>
             <chunk name="Views">
@@ -145,11 +145,11 @@
                     </item>
                     <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
                       <X>630.8198</X>
-                      <Y>436.6129</Y>
+                      <Y>436.6128</Y>
                     </item>
                     <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
                       <X>183.31</X>
-                      <Y>436.6129</Y>
+                      <Y>436.6128</Y>
                     </item>
                     <item name="Description" type_name="gh_string" type_code="10">A quick note</item>
                     <item name="Font" type_name="gh_string" type_code="10">Microsoft Sans Serif</item>
@@ -181,112 +181,6 @@
               </chunks>
             </chunk>
             <chunk name="Object" index="3">
-              <items count="2">
-                <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
-                <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
-              </items>
-              <chunks count="1">
-                <chunk name="Container">
-                  <items count="13">
-                    <item name="Bold" type_name="gh_bool" type_code="1">true</item>
-                    <item name="Ca" type_name="gh_drawing_pointf" type_code="31">
-                      <X>140.1891</X>
-                      <Y>3280.866</Y>
-                    </item>
-                    <item name="Cb" type_name="gh_drawing_pointf" type_code="31">
-                      <X>2775.225</X>
-                      <Y>3280.866</Y>
-                    </item>
-                    <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
-                      <X>2775.225</X>
-                      <Y>3282.6</Y>
-                    </item>
-                    <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
-                      <X>140.1891</X>
-                      <Y>3282.6</Y>
-                    </item>
-                    <item name="Description" type_name="gh_string" type_code="10">A quick note</item>
-                    <item name="Font" type_name="gh_string" type_code="10">Microsoft Sans Serif</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">da7458f8-c471-4e9f-9b2b-e5a37198ef60</item>
-                    <item name="Italic" type_name="gh_bool" type_code="1">false</item>
-                    <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
-                    <item name="NickName" type_name="gh_string" type_code="10">Scribble</item>
-                    <item name="Size" type_name="gh_single" type_code="5">25</item>
-                    <item name="Text" type_name="gh_string" type_code="10">___________________________________________________________________________________________________________________________________________________________________________________</item>
-                  </items>
-                  <chunks count="1">
-                    <chunk name="Attributes">
-                      <items count="2">
-                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>135.1891</X>
-                          <Y>3275.866</Y>
-                          <W>2645.036</W>
-                          <H>11.7334</H>
-                        </item>
-                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>140.1891</X>
-                          <Y>3280.866</Y>
-                        </item>
-                      </items>
-                    </chunk>
-                  </chunks>
-                </chunk>
-              </chunks>
-            </chunk>
-            <chunk name="Object" index="4">
-              <items count="2">
-                <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
-                <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
-              </items>
-              <chunks count="1">
-                <chunk name="Container">
-                  <items count="13">
-                    <item name="Bold" type_name="gh_bool" type_code="1">true</item>
-                    <item name="Ca" type_name="gh_drawing_pointf" type_code="31">
-                      <X>167.4463</X>
-                      <Y>1959.995</Y>
-                    </item>
-                    <item name="Cb" type_name="gh_drawing_pointf" type_code="31">
-                      <X>2802.485</X>
-                      <Y>1959.995</Y>
-                    </item>
-                    <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
-                      <X>2802.485</X>
-                      <Y>1961.729</Y>
-                    </item>
-                    <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
-                      <X>167.4463</X>
-                      <Y>1961.729</Y>
-                    </item>
-                    <item name="Description" type_name="gh_string" type_code="10">A quick note</item>
-                    <item name="Font" type_name="gh_string" type_code="10">Microsoft Sans Serif</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">b653258f-8ed3-494c-98c2-e0e3a18a875a</item>
-                    <item name="Italic" type_name="gh_bool" type_code="1">false</item>
-                    <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
-                    <item name="NickName" type_name="gh_string" type_code="10">Scribble</item>
-                    <item name="Size" type_name="gh_single" type_code="5">25</item>
-                    <item name="Text" type_name="gh_string" type_code="10">___________________________________________________________________________________________________________________________________________________________________________________</item>
-                  </items>
-                  <chunks count="1">
-                    <chunk name="Attributes">
-                      <items count="2">
-                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>162.4463</X>
-                          <Y>1954.995</Y>
-                          <W>2645.038</W>
-                          <H>11.7334</H>
-                        </item>
-                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>167.4463</X>
-                          <Y>1959.995</Y>
-                        </item>
-                      </items>
-                    </chunk>
-                  </chunks>
-                </chunk>
-              </chunks>
-            </chunk>
-            <chunk name="Object" index="5">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">9d0c5284-ea24-4f9f-a183-ef57fc48b5b8</item>
                 <item name="Name" type_name="gh_string" type_code="10">Convex Hull</item>
@@ -481,7 +375,7 @@
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="6">
+            <chunk name="Object" index="4">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">1eb4f6ff-3547-4184-bead-1b01e7cfd668</item>
                 <item name="Name" type_name="gh_string" type_code="10">Delaunay Mesh</item>
@@ -623,7 +517,7 @@
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="7">
+            <chunk name="Object" index="5">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">db2a4d25-23fa-4887-8983-ee5293cc82c0</item>
                 <item name="Name" type_name="gh_string" type_code="10">Delaunay Edges</item>
@@ -793,7 +687,7 @@
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="8">
+            <chunk name="Object" index="6">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">415750fd-c0ec-4411-84d0-01f28ab23066</item>
                 <item name="Name" type_name="gh_string" type_code="10">Substrate</item>
@@ -1110,7 +1004,7 @@
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="9">
+            <chunk name="Object" index="7">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">190c0070-8cbf-4347-94c2-d84bbb488d55</item>
                 <item name="Name" type_name="gh_string" type_code="10">Facet Dome</item>
@@ -1276,7 +1170,7 @@
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="10">
+            <chunk name="Object" index="8">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">ba9bb57a-61cf-4207-a1c4-994e371ba4f9</item>
                 <item name="Name" type_name="gh_string" type_code="10">Voronoi 3D</item>
@@ -1416,7 +1310,7 @@
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="11">
+            <chunk name="Object" index="9">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">9d4854fe-70db-4863-967b-4120d0b6d2e4</item>
                 <item name="Name" type_name="gh_string" type_code="10">Voronoi Groups</item>
@@ -1636,7 +1530,7 @@
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="12">
+            <chunk name="Object" index="10">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">a4011be0-1c91-45bd-8280-17dd3a9f46f1</item>
                 <item name="Name" type_name="gh_string" type_code="10">Voronoi</item>
@@ -1802,7 +1696,7 @@
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="13">
+            <chunk name="Object" index="11">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">7b181be1-30e7-4a97-915a-1b461741aef8</item>
                 <item name="Name" type_name="gh_string" type_code="10">Voronoi Cell</item>
@@ -1940,7 +1834,7 @@
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="14">
+            <chunk name="Object" index="12">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">a59a68ad-fdd6-41dd-88f0-d7a6fb8d2e16</item>
                 <item name="Name" type_name="gh_string" type_code="10">OcTree</item>
@@ -2146,7 +2040,7 @@
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="15">
+            <chunk name="Object" index="13">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">458ed0e0-19a3-419b-8ead-f524925b8a35</item>
                 <item name="Name" type_name="gh_string" type_code="10">Proximity 2D</item>
@@ -2414,7 +2308,7 @@
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="16">
+            <chunk name="Object" index="14">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">e504d619-4467-437a-92fa-c6822d16b066</item>
                 <item name="Name" type_name="gh_string" type_code="10">Proximity 3D</item>
@@ -2626,7 +2520,7 @@
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="17">
+            <chunk name="Object" index="15">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">8102032b-9699-4949-ab12-3017a31d1062</item>
                 <item name="Name" type_name="gh_string" type_code="10">QuadTree</item>
@@ -2888,61 +2782,7 @@
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="18">
-              <items count="2">
-                <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
-                <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
-              </items>
-              <chunks count="1">
-                <chunk name="Container">
-                  <items count="13">
-                    <item name="Bold" type_name="gh_bool" type_code="1">true</item>
-                    <item name="Ca" type_name="gh_drawing_pointf" type_code="31">
-                      <X>236.3184</X>
-                      <Y>5333.109</Y>
-                    </item>
-                    <item name="Cb" type_name="gh_drawing_pointf" type_code="31">
-                      <X>2871.363</X>
-                      <Y>5333.109</Y>
-                    </item>
-                    <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
-                      <X>2871.363</X>
-                      <Y>5334.843</Y>
-                    </item>
-                    <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
-                      <X>236.3184</X>
-                      <Y>5334.843</Y>
-                    </item>
-                    <item name="Description" type_name="gh_string" type_code="10">A quick note</item>
-                    <item name="Font" type_name="gh_string" type_code="10">Microsoft Sans Serif</item>
-                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">0161ab50-2093-49ab-a7dc-2a86142022f5</item>
-                    <item name="Italic" type_name="gh_bool" type_code="1">false</item>
-                    <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
-                    <item name="NickName" type_name="gh_string" type_code="10">Scribble</item>
-                    <item name="Size" type_name="gh_single" type_code="5">25</item>
-                    <item name="Text" type_name="gh_string" type_code="10">___________________________________________________________________________________________________________________________________________________________________________________</item>
-                  </items>
-                  <chunks count="1">
-                    <chunk name="Attributes">
-                      <items count="3">
-                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
-                          <X>231.3184</X>
-                          <Y>5328.109</Y>
-                          <W>2645.045</W>
-                          <H>11.7334</H>
-                        </item>
-                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
-                          <X>236.3184</X>
-                          <Y>5333.109</Y>
-                        </item>
-                        <item name="Selected" type_name="gh_bool" type_code="1">true</item>
-                      </items>
-                    </chunk>
-                  </chunks>
-                </chunk>
-              </chunks>
-            </chunk>
-            <chunk name="Object" index="19">
+            <chunk name="Object" index="16">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">dc934310-67eb-4d1d-8607-7cc62a501dd9</item>
                 <item name="Name" type_name="gh_string" type_code="10">MetaBall</item>
@@ -3137,7 +2977,7 @@
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="20">
+            <chunk name="Object" index="17">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">c4373505-a4cf-4992-8db1-fd6e6bb5850d</item>
                 <item name="Name" type_name="gh_string" type_code="10">MetaBall(t) Custom</item>
@@ -3379,7 +3219,7 @@
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="21">
+            <chunk name="Object" index="18">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">c48cf4d4-432c-41b6-b77a-77650479a31f</item>
                 <item name="Name" type_name="gh_string" type_code="10">MetaBall(t)</item>
@@ -3594,7 +3434,7 @@
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="22">
+            <chunk name="Object" index="19">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">2844fec5-142d-4381-bd5d-4cbcef6d6fed</item>
                 <item name="Name" type_name="gh_string" type_code="10">Sketch</item>
@@ -3734,7 +3574,7 @@
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="23">
+            <chunk name="Object" index="20">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">2844fec5-142d-4381-bd5d-4cbcef6d6fed</item>
                 <item name="Name" type_name="gh_string" type_code="10">Sketch</item>
@@ -3774,191 +3614,191 @@
                       <items count="48">
                         <item name="V" index="0" type_name="gh_point2d" type_code="50">
                           <X>214.303995361327</X>
-                          <Y>182.986006364022</Y>
+                          <Y>182.9860368816</Y>
                         </item>
                         <item name="V" index="1" type_name="gh_point2d" type_code="50">
                           <X>211.783995361327</X>
-                          <Y>182.986006364022</Y>
+                          <Y>182.9860368816</Y>
                         </item>
                         <item name="V" index="2" type_name="gh_point2d" type_code="50">
                           <X>205.061408272917</X>
-                          <Y>182.119486568905</Y>
+                          <Y>182.119517086483</Y>
                         </item>
                         <item name="V" index="3" type_name="gh_point2d" type_code="50">
                           <X>198.260836000473</X>
-                          <Y>179.881326632456</Y>
+                          <Y>179.881357150034</Y>
                         </item>
                         <item name="V" index="4" type_name="gh_point2d" type_code="50">
                           <X>191.80155115536</X>
-                          <Y>176.21217746159</Y>
+                          <Y>176.212207979168</Y>
                         </item>
                         <item name="V" index="5" type_name="gh_point2d" type_code="50">
                           <X>186.123995361326</X>
-                          <Y>171.226006364022</Y>
+                          <Y>171.2260368816</Y>
                         </item>
                         <item name="V" index="6" type_name="gh_point2d" type_code="50">
                           <X>181.847550596866</X>
-                          <Y>165.513348654379</Y>
+                          <Y>165.513379171957</Y>
                         </item>
                         <item name="V" index="7" type_name="gh_point2d" type_code="50">
                           <X>178.843995361327</X>
-                          <Y>159.226006364022</Y>
+                          <Y>159.2260368816</Y>
                         </item>
                         <item name="V" index="8" type_name="gh_point2d" type_code="50">
                           <X>177.084141180684</X>
-                          <Y>152.594537976746</Y>
+                          <Y>152.594568494324</Y>
                         </item>
                         <item name="V" index="9" type_name="gh_point2d" type_code="50">
                           <X>176.563995361328</X>
-                          <Y>144.606006364022</Y>
+                          <Y>144.6060368816</Y>
                         </item>
                         <item name="V" index="10" type_name="gh_point2d" type_code="50">
                           <X>177.489899626468</X>
-                          <Y>137.323793437101</Y>
+                          <Y>137.323823954679</Y>
                         </item>
                         <item name="V" index="11" type_name="gh_point2d" type_code="50">
                           <X>179.803995361326</X>
-                          <Y>129.946006364023</Y>
+                          <Y>129.946036881601</Y>
                         </item>
                         <item name="V" index="12" type_name="gh_point2d" type_code="50">
                           <X>183.350698472745</X>
-                          <Y>123.120340837452</Y>
+                          <Y>123.12037135503</Y>
                         </item>
                         <item name="V" index="13" type_name="gh_point2d" type_code="50">
                           <X>188.103995361327</X>
-                          <Y>116.886006364023</Y>
+                          <Y>116.886036881601</Y>
                         </item>
                         <item name="V" index="14" type_name="gh_point2d" type_code="50">
                           <X>193.909921760284</X>
-                          <Y>111.495513502044</Y>
+                          <Y>111.495544019622</Y>
                         </item>
                         <item name="V" index="15" type_name="gh_point2d" type_code="50">
                           <X>200.483995361326</X>
-                          <Y>107.226006364022</Y>
+                          <Y>107.2260368816</Y>
                         </item>
                         <item name="V" index="16" type_name="gh_point2d" type_code="50">
                           <X>207.54708472079</X>
-                          <Y>104.203033181521</Y>
+                          <Y>104.203063699099</Y>
                         </item>
                         <item name="V" index="17" type_name="gh_point2d" type_code="50">
                           <X>214.723995361327</X>
-                          <Y>102.506006364023</Y>
+                          <Y>102.506036881601</Y>
                         </item>
                         <item name="V" index="18" type_name="gh_point2d" type_code="50">
                           <X>220.738217255319</X>
-                          <Y>102.029266357422</Y>
+                          <Y>102.029296875</Y>
                         </item>
                         <item name="V" index="19" type_name="gh_point2d" type_code="50">
                           <X>231.789011153972</X>
-                          <Y>103.66377771555</Y>
+                          <Y>103.663808233128</Y>
                         </item>
                         <item name="V" index="20" type_name="gh_point2d" type_code="50">
                           <X>237.342536753259</X>
-                          <Y>105.829572200256</Y>
+                          <Y>105.829602717834</Y>
                         </item>
                         <item name="V" index="21" type_name="gh_point2d" type_code="50">
                           <X>242.623995361326</X>
-                          <Y>108.926006364023</Y>
+                          <Y>108.926036881601</Y>
                         </item>
                         <item name="V" index="22" type_name="gh_point2d" type_code="50">
                           <X>237.263995361327</X>
-                          <Y>116.006006364023</Y>
+                          <Y>116.006036881601</Y>
                         </item>
                         <item name="V" index="23" type_name="gh_point2d" type_code="50">
                           <X>233.090809843777</X>
-                          <Y>113.567850190699</Y>
+                          <Y>113.567880708277</Y>
                         </item>
                         <item name="V" index="24" type_name="gh_point2d" type_code="50">
                           <X>228.704860870025</X>
-                          <Y>111.862742563001</Y>
+                          <Y>111.862773080579</Y>
                         </item>
                         <item name="V" index="25" type_name="gh_point2d" type_code="50">
                           <X>219.979502909281</X>
-                          <Y>110.575886590304</Y>
+                          <Y>110.575917107882</Y>
                         </item>
                         <item name="V" index="26" type_name="gh_point2d" type_code="50">
                           <X>215.263995361327</X>
-                          <Y>110.946006364023</Y>
+                          <Y>110.946036881601</Y>
                         </item>
                         <item name="V" index="27" type_name="gh_point2d" type_code="50">
                           <X>209.599128320847</X>
-                          <Y>112.278987778338</Y>
+                          <Y>112.279018295916</Y>
                         </item>
                         <item name="V" index="28" type_name="gh_point2d" type_code="50">
                           <X>204.023995361327</X>
-                          <Y>114.666006364023</Y>
+                          <Y>114.666036881601</Y>
                         </item>
                         <item name="V" index="29" type_name="gh_point2d" type_code="50">
                           <X>198.822621594738</X>
-                          <Y>118.033776127822</Y>
+                          <Y>118.0338066454</Y>
                         </item>
                         <item name="V" index="30" type_name="gh_point2d" type_code="50">
                           <X>194.223995361327</X>
-                          <Y>122.286006364023</Y>
+                          <Y>122.286036881601</Y>
                         </item>
                         <item name="V" index="31" type_name="gh_point2d" type_code="50">
                           <X>190.482012593968</X>
-                          <Y>127.20504959102</Y>
+                          <Y>127.205080108598</Y>
                         </item>
                         <item name="V" index="32" type_name="gh_point2d" type_code="50">
                           <X>187.683995361327</X>
-                          <Y>132.586006364022</Y>
+                          <Y>132.5860368816</Y>
                         </item>
                         <item name="V" index="33" type_name="gh_point2d" type_code="50">
                           <X>185.853644223235</X>
-                          <Y>138.413858024438</Y>
+                          <Y>138.413888542016</Y>
                         </item>
                         <item name="V" index="34" type_name="gh_point2d" type_code="50">
                           <X>185.123995361326</X>
-                          <Y>144.166006364022</Y>
+                          <Y>144.1660368816</Y>
                         </item>
                         <item name="V" index="35" type_name="gh_point2d" type_code="50">
                           <X>185.534912838401</X>
-                          <Y>150.467550236012</Y>
+                          <Y>150.46758075359</Y>
                         </item>
                         <item name="V" index="36" type_name="gh_point2d" type_code="50">
                           <X>186.923995361327</X>
-                          <Y>155.706006364022</Y>
+                          <Y>155.7060368816</Y>
                         </item>
                         <item name="V" index="37" type_name="gh_point2d" type_code="50">
                           <X>189.293361171232</X>
-                          <Y>160.662101343842</Y>
+                          <Y>160.66213186142</Y>
                         </item>
                         <item name="V" index="38" type_name="gh_point2d" type_code="50">
                           <X>192.663995361326</X>
-                          <Y>165.166006364022</Y>
+                          <Y>165.1660368816</Y>
                         </item>
                         <item name="V" index="39" type_name="gh_point2d" type_code="50">
                           <X>197.150631720136</X>
-                          <Y>169.094377248975</Y>
+                          <Y>169.094407766553</Y>
                         </item>
                         <item name="V" index="40" type_name="gh_point2d" type_code="50">
                           <X>202.251172269696</X>
-                          <Y>171.983714080753</Y>
+                          <Y>171.983744598331</Y>
                         </item>
                         <item name="V" index="41" type_name="gh_point2d" type_code="50">
                           <X>207.618879680283</X>
-                          <Y>173.745169645555</Y>
+                          <Y>173.745200163133</Y>
                         </item>
                         <item name="V" index="42" type_name="gh_point2d" type_code="50">
                           <X>212.923995361327</X>
-                          <Y>174.426006364022</Y>
+                          <Y>174.4260368816</Y>
                         </item>
                         <item name="V" index="43" type_name="gh_point2d" type_code="50">
                           <X>286.763995361327</X>
-                          <Y>174.426006364022</Y>
+                          <Y>174.4260368816</Y>
                         </item>
                         <item name="V" index="44" type_name="gh_point2d" type_code="50">
                           <X>286.023995361327</X>
-                          <Y>182.946006364022</Y>
+                          <Y>182.9460368816</Y>
                         </item>
                         <item name="V" index="45" type_name="gh_point2d" type_code="50">
                           <X>214.303995361327</X>
-                          <Y>182.946006364022</Y>
+                          <Y>182.9460368816</Y>
                         </item>
                         <item name="V" index="46" type_name="gh_point2d" type_code="50">
                           <X>214.303995361327</X>
-                          <Y>182.986006364022</Y>
+                          <Y>182.9860368816</Y>
                         </item>
                         <item name="VertexCount" type_name="gh_int32" type_code="3">47</item>
                       </items>
@@ -3967,31 +3807,31 @@
                       <items count="8">
                         <item name="V" index="0" type_name="gh_point2d" type_code="50">
                           <X>251.283995361327</X>
-                          <Y>214.946006364022</Y>
+                          <Y>214.9460368816</Y>
                         </item>
                         <item name="V" index="1" type_name="gh_point2d" type_code="50">
                           <X>242.763995361327</X>
-                          <Y>214.946006364022</Y>
+                          <Y>214.9460368816</Y>
                         </item>
                         <item name="V" index="2" type_name="gh_point2d" type_code="50">
                           <X>248.723995361327</X>
-                          <Y>146.786006364022</Y>
+                          <Y>146.7860368816</Y>
                         </item>
                         <item name="V" index="3" type_name="gh_point2d" type_code="50">
                           <X>234.883995361327</X>
-                          <Y>146.786006364022</Y>
+                          <Y>146.7860368816</Y>
                         </item>
                         <item name="V" index="4" type_name="gh_point2d" type_code="50">
                           <X>235.623995361327</X>
-                          <Y>138.286006364022</Y>
+                          <Y>138.2860368816</Y>
                         </item>
                         <item name="V" index="5" type_name="gh_point2d" type_code="50">
                           <X>257.983995361327</X>
-                          <Y>138.286006364022</Y>
+                          <Y>138.2860368816</Y>
                         </item>
                         <item name="V" index="6" type_name="gh_point2d" type_code="50">
                           <X>251.283995361327</X>
-                          <Y>214.946006364022</Y>
+                          <Y>214.9460368816</Y>
                         </item>
                         <item name="VertexCount" type_name="gh_int32" type_code="3">7</item>
                       </items>
@@ -4000,23 +3840,23 @@
                       <items count="6">
                         <item name="V" index="0" type_name="gh_point2d" type_code="50">
                           <X>287.483995361327</X>
-                          <Y>214.946006364022</Y>
+                          <Y>214.9460368816</Y>
                         </item>
                         <item name="V" index="1" type_name="gh_point2d" type_code="50">
                           <X>278.963995361327</X>
-                          <Y>214.946006364022</Y>
+                          <Y>214.9460368816</Y>
                         </item>
                         <item name="V" index="2" type_name="gh_point2d" type_code="50">
                           <X>285.643995361327</X>
-                          <Y>138.526006364022</Y>
+                          <Y>138.5260368816</Y>
                         </item>
                         <item name="V" index="3" type_name="gh_point2d" type_code="50">
                           <X>294.163995361327</X>
-                          <Y>138.526006364022</Y>
+                          <Y>138.5260368816</Y>
                         </item>
                         <item name="V" index="4" type_name="gh_point2d" type_code="50">
                           <X>287.483995361327</X>
-                          <Y>214.946006364022</Y>
+                          <Y>214.9460368816</Y>
                         </item>
                         <item name="VertexCount" type_name="gh_int32" type_code="3">5</item>
                       </items>
@@ -4025,7 +3865,7 @@
                 </chunk>
               </chunks>
             </chunk>
-            <chunk name="Object" index="24">
+            <chunk name="Object" index="21">
               <items count="2">
                 <item name="GUID" type_name="gh_guid" type_code="9">59e0b89a-e487-49f8-bab8-b5bab16be14c</item>
                 <item name="Name" type_name="gh_string" type_code="10">Panel</item>
@@ -4093,16 +3933,168 @@ More information: {{project link}}
                 </chunk>
               </chunks>
             </chunk>
+            <chunk name="Object" index="22">
+              <items count="2">
+                <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
+                <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Container">
+                  <items count="13">
+                    <item name="Bold" type_name="gh_bool" type_code="1">true</item>
+                    <item name="Ca" type_name="gh_drawing_pointf" type_code="31">
+                      <X>384.5507</X>
+                      <Y>1956.221</Y>
+                    </item>
+                    <item name="Cb" type_name="gh_drawing_pointf" type_code="31">
+                      <X>2445.046</X>
+                      <Y>1956.221</Y>
+                    </item>
+                    <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
+                      <X>2445.046</X>
+                      <Y>1963.155</Y>
+                    </item>
+                    <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
+                      <X>384.5507</X>
+                      <Y>1963.155</Y>
+                    </item>
+                    <item name="Description" type_name="gh_string" type_code="10">A quick note</item>
+                    <item name="Font" type_name="gh_string" type_code="10">Microsoft Sans Serif</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">1eff9d78-46aa-488b-b2ca-4ce28718b338</item>
+                    <item name="Italic" type_name="gh_bool" type_code="1">false</item>
+                    <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
+                    <item name="NickName" type_name="gh_string" type_code="10">Scribble</item>
+                    <item name="Size" type_name="gh_single" type_code="5">100</item>
+                    <item name="Text" type_name="gh_string" type_code="10">___________________________________</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Attributes">
+                      <items count="2">
+                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                          <X>379.5507</X>
+                          <Y>1951.221</Y>
+                          <W>2070.496</W>
+                          <H>16.93359</H>
+                        </item>
+                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                          <X>384.5507</X>
+                          <Y>1956.221</Y>
+                        </item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="Object" index="23">
+              <items count="2">
+                <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
+                <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Container">
+                  <items count="13">
+                    <item name="Bold" type_name="gh_bool" type_code="1">true</item>
+                    <item name="Ca" type_name="gh_drawing_pointf" type_code="31">
+                      <X>287.4511</X>
+                      <Y>3284.884</Y>
+                    </item>
+                    <item name="Cb" type_name="gh_drawing_pointf" type_code="31">
+                      <X>2347.947</X>
+                      <Y>3284.884</Y>
+                    </item>
+                    <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
+                      <X>2347.947</X>
+                      <Y>3291.818</Y>
+                    </item>
+                    <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
+                      <X>287.4511</X>
+                      <Y>3291.818</Y>
+                    </item>
+                    <item name="Description" type_name="gh_string" type_code="10">A quick note</item>
+                    <item name="Font" type_name="gh_string" type_code="10">Microsoft Sans Serif</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">18c97fba-7136-497e-899b-d57fc1d2b3fc</item>
+                    <item name="Italic" type_name="gh_bool" type_code="1">false</item>
+                    <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
+                    <item name="NickName" type_name="gh_string" type_code="10">Scribble</item>
+                    <item name="Size" type_name="gh_single" type_code="5">100</item>
+                    <item name="Text" type_name="gh_string" type_code="10">___________________________________</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Attributes">
+                      <items count="2">
+                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                          <X>282.4511</X>
+                          <Y>3279.884</Y>
+                          <W>2070.496</W>
+                          <H>16.93359</H>
+                        </item>
+                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                          <X>287.4511</X>
+                          <Y>3284.884</Y>
+                        </item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
+            <chunk name="Object" index="24">
+              <items count="2">
+                <item name="GUID" type_name="gh_guid" type_code="9">7f5c6c55-f846-4a08-9c9a-cfdc285cc6fe</item>
+                <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
+              </items>
+              <chunks count="1">
+                <chunk name="Container">
+                  <items count="13">
+                    <item name="Bold" type_name="gh_bool" type_code="1">true</item>
+                    <item name="Ca" type_name="gh_drawing_pointf" type_code="31">
+                      <X>315.8423</X>
+                      <Y>5327.542</Y>
+                    </item>
+                    <item name="Cb" type_name="gh_drawing_pointf" type_code="31">
+                      <X>2376.34</X>
+                      <Y>5327.542</Y>
+                    </item>
+                    <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
+                      <X>2376.34</X>
+                      <Y>5334.475</Y>
+                    </item>
+                    <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
+                      <X>315.8423</X>
+                      <Y>5334.475</Y>
+                    </item>
+                    <item name="Description" type_name="gh_string" type_code="10">A quick note</item>
+                    <item name="Font" type_name="gh_string" type_code="10">Microsoft Sans Serif</item>
+                    <item name="InstanceGuid" type_name="gh_guid" type_code="9">c8c88776-4b29-44d7-8169-bd9f01b9338b</item>
+                    <item name="Italic" type_name="gh_bool" type_code="1">false</item>
+                    <item name="Name" type_name="gh_string" type_code="10">Scribble</item>
+                    <item name="NickName" type_name="gh_string" type_code="10">Scribble</item>
+                    <item name="Size" type_name="gh_single" type_code="5">100</item>
+                    <item name="Text" type_name="gh_string" type_code="10">___________________________________</item>
+                  </items>
+                  <chunks count="1">
+                    <chunk name="Attributes">
+                      <items count="2">
+                        <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
+                          <X>310.8423</X>
+                          <Y>5322.542</Y>
+                          <W>2070.498</W>
+                          <H>16.93359</H>
+                        </item>
+                        <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
+                          <X>315.8423</X>
+                          <Y>5327.542</Y>
+                        </item>
+                      </items>
+                    </chunk>
+                  </chunks>
+                </chunk>
+              </chunks>
+            </chunk>
           </chunks>
         </chunk>
       </chunks>
-    </chunk>
-    <chunk name="Thumbnail">
-      <items count="1">
-        <item name="Thumbnail" type_name="gh_drawing_bitmap" type_code="37">
-          <bitmap length="1131">iVBORw0KGgoAAAANSUhEUgAAAJYAAABkCAIAAADrOV6nAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQASURBVHhe7dzPixtlHMfx+RM8qCfPgv4FXgXv9dCDeLX+2INUlNraQmlhRTzYwmLLLqKiFVYQKtrCslqIZZVttdWdZDKboZtk8uR55kcy42azCYgU15ntA1IPZQt5dp9P+nmRQ/Kd08ybmQyZhzg0DXYI1n8JuwSICeExITwmhMeE8JgQHhPCY0J4TAiPCeExITwmhMeE8JgQHhPCe4QTCqGSXpRtqTQrPughIPsSCiGjSOXbqj/QEzNkFDdu/VJdWvRXK1LFegrIuoTFkd3wPffbC7XlRdGVXSn1hkkT/XF1/vXR20793KF2sqWngKxLqLKt6rXL4zedzqmngmZXqkhvmLSwNw4+fWPnrNP6+MVmbPaMN8q+hGnm37y+/uEL1YtHWmFxEiq9YeL6w7XPT6gTT7oXXgmTTT0EZF3C8s5CRc1oEEa5sYtoSUrZarZ8r7Fxp1m811NAFibcVR5T44e1uEqrODF3rd4ftiakPWNCeEwIjwnhMSE8JoTHhPCYEB4TwmNCeEwIz76E5SPfuJ0MO8kA+tfnfWNdQtXL6j8v++cPuQszzY2WjIz9Bn1v4UU+VGm/eK+HgOxLmA9rVz7ZOenkZ56oe4GKTS2JkFGy/tuKe/WSf6NSnPd6Csi6hFE2qC5/3X3v8cbsc0HjjrmE3WxcW5gZv+V4cy910m09BGRdwuL7L2yHfs0P1ht6ZIbIxt78a3ffcfy5wyETTlZRUcWJwfNvl4zT+sqS+805r/KdjFI9BWRjwn1S3M6kmcpHqpfzdoYOEhPCY0J4TAiPCeExITwmhMeE8JgQHhPCO5iEQohQhB3RmeJXsYPFbuodNumAEnbF/3Z4Kl/FbuodNulgEtIEMSE8JoTHhPAe4YS7K9jUn6Pyr4P4yBeRSlL/RmVt8aP6ypKMufBigoSQKgp72yIdmF0InI+rX566e9Tx5l/t9Ed6CMi6hMXFrfH7TW/uZfeLk6FQ5hZ0y3zsXjo9OupUF2YEE06Q6m/WKt//c9yJZ58OmkoqU38dJKM4cG+5P15u3F7lUuBJUr28tvKDePcx/4PnN9oGE5a3M3EaZYPivOftzCQVV85OGNbX1oJ6XY/ogaxLWCiXAhe3+3GiP9MD2ZiQHgoTwmNCeEwIjwnhMSE8JoTHhPCYEB4TwmNCeEwIz8KEu0/t06FINvn3XXthXcLyqf3tVe/8YfezY+2Owaf2U8O+hP3N2k9X/z7uqPefDVomH/lOCysTVq78dczpzj7DhHthX8I4Df74tXrxiPvVWaPLn6aGdQnLRYhRVC4p6xlehDgt7EtID4kJ4TEhPCaEx4TwmBAeE8JjQnhMCI8J4TEhPCaEx4TwmBDefQkJlE5IwBznX+UKKAORfIydAAAAAElFTkSuQmCC</bitmap>
-        </item>
-      </items>
     </chunk>
   </chunks>
 </Archive>
