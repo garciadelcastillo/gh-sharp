@@ -6,7 +6,7 @@ GH#: A C# Dictionary of Grasshopper3D Components
 
 ## Credits
 
-This is an educational project initiated by students/faculty of GSD-6338: Introduction to Computational Design, at the Harvard Graduate School of Design. 
+This is an educational project initiated by students/faculty of GSD-6338: Introduction to Computational Design, at the Harvard Graduate School of Design, and further extended by the community :)
 
 [@garciadelcastillo](https://github.com/garciadelcastillo)
 
