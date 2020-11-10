@@ -21,3 +21,5 @@ This is an educational project initiated by students/faculty of GSD-6338: Introd
 [@suekim37](https://github.com/suekim37)
 
 [@bava-kumaravel](https://github.com/bava-kumaravel)
+
+[@range-et](https://github.com/range-et)
