@@ -10,7 +10,7 @@
       <Revision>2</Revision>
     </item>
   </items>
-  <chunks count="1">
+  <chunks count="2">
     <chunk name="Definition">
       <items count="1">
         <item name="plugin_version" type_name="gh_version" type_code="80">
@@ -48,10 +48,10 @@
             <chunk name="Projection">
               <items count="2">
                 <item name="Target" type_name="gh_drawing_point" type_code="30">
-                  <X>18</X>
-                  <Y>186</Y>
+                  <X>296</X>
+                  <Y>31</Y>
                 </item>
-                <item name="Zoom" type_name="gh_single" type_code="5">0.298787534</item>
+                <item name="Zoom" type_name="gh_single" type_code="5">0.11268767</item>
               </items>
             </chunk>
             <chunk name="Views">
@@ -3947,11 +3947,11 @@ More information: {{project link}}
                       <Y>1956.221</Y>
                     </item>
                     <item name="Cb" type_name="gh_drawing_pointf" type_code="31">
-                      <X>2445.046</X>
+                      <X>2445.049</X>
                       <Y>1956.221</Y>
                     </item>
                     <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
-                      <X>2445.046</X>
+                      <X>2445.049</X>
                       <Y>1963.155</Y>
                     </item>
                     <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
@@ -3973,7 +3973,7 @@ More information: {{project link}}
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>379.5507</X>
                           <Y>1951.221</Y>
-                          <W>2070.496</W>
+                          <W>2070.498</W>
                           <H>16.93359</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -4000,11 +4000,11 @@ More information: {{project link}}
                       <Y>3284.884</Y>
                     </item>
                     <item name="Cb" type_name="gh_drawing_pointf" type_code="31">
-                      <X>2347.947</X>
+                      <X>2347.949</X>
                       <Y>3284.884</Y>
                     </item>
                     <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
-                      <X>2347.947</X>
+                      <X>2347.949</X>
                       <Y>3291.818</Y>
                     </item>
                     <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
@@ -4026,7 +4026,7 @@ More information: {{project link}}
                         <item name="Bounds" type_name="gh_drawing_rectanglef" type_code="35">
                           <X>282.4511</X>
                           <Y>3279.884</Y>
-                          <W>2070.496</W>
+                          <W>2070.498</W>
                           <H>16.93359</H>
                         </item>
                         <item name="Pivot" type_name="gh_drawing_pointf" type_code="31">
@@ -4058,11 +4058,11 @@ More information: {{project link}}
                     </item>
                     <item name="Cc" type_name="gh_drawing_pointf" type_code="31">
                       <X>2376.34</X>
-                      <Y>5334.475</Y>
+                      <Y>5334.476</Y>
                     </item>
                     <item name="Cd" type_name="gh_drawing_pointf" type_code="31">
                       <X>315.8423</X>
-                      <Y>5334.475</Y>
+                      <Y>5334.476</Y>
                     </item>
                     <item name="Description" type_name="gh_string" type_code="10">A quick note</item>
                     <item name="Font" type_name="gh_string" type_code="10">Microsoft Sans Serif</item>
@@ -4095,6 +4095,13 @@ More information: {{project link}}
           </chunks>
         </chunk>
       </chunks>
+    </chunk>
+    <chunk name="Thumbnail">
+      <items count="1">
+        <item name="Thumbnail" type_name="gh_drawing_bitmap" type_code="37">
+          <bitmap length="1396">iVBORw0KGgoAAAANSUhEUgAAAJYAAABkCAIAAADrOV6nAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAUJSURBVHhe7d1NbxtFHMfxvATEAXHhwrVIvAFeA0eKhLiABBIHVLUKqpAgHAD1gESqSgGZqqg8SlSFNkAPaZoGiFinsR17/WyvHXt2dvYxIfQhV5hNJiJpUNQdV/H+Nv/PKbOrJJK/GTu73h1PkCz4h8D6L6FNAKElZMzxQxH+pYYELiEXbis/31i4ypgccLU1AWaLgHnrGt+ZWmAJWXiv/OnLq2eetdZs7gi19ZE54Wbp24+NcycHzOU6fwFphDYLuWM1au1KUY0T4q7fMm7W575nNteaxGkEllDOQ8f1HC9Qo6TkS6mXtZdSuITkYZQQHiWERwnhUUJ4lBAeJYSHllAe2AUbTnRXDZMTQrhu4tM6aQaWkHtR5aeZ4qV3h7bQOL0SBP7s7K+53Jfyb4FOsI1HnPB6rnR5SibUaBBFYS53+ezZD4fDASUck9GeSOWz6MpKYWFhMSv5YmgJR8MY8zwvDHVPsabS8UqYSZQQHiWERwnhUUJ4GAnlMZw8HjgyWIeMAAnlAzoYDMxd1f+j9u2hduyn9u1SW/eQGyuVSq/XA6oIk1A+skejXC5blkUJHzP5gLpHCKifhJGQHIISwkNLyJjj+sIP1TCp+JaMdSf6Ww0zASwhd0TXLLZWljTeLJS4GzR/nzVnc8x29H5CCqHNwuj+6oXXi+8817N9zh218dGtb9XOv9R4+4numsed5N+eSnizsFO+08zf1p2FXiu/UJ2/QrNwfOKbIuRrYaSGScWvhaEIN9UwE9ASkgMoITxKCI8SwqOE8AAT8pj6Oin1Hynd5TtWzBZD21WDhLbvtZ+rz31Hx4Vj44Sbha8/Wjr3ytDxNeYij+6XZ94oTp7oMTo7MyZcuN1yvpWftzXOrsXPwU6v0+7Uq5mZghJYwu13Kjz9dypsJv8I5E9Qo0xAS0gOoITwKCE8SggPIGGxWMzn88u75LBUKqnBY2UYhmmaDtrBBtgslMeCplktFIosXs2SxMASBoE/Pf3Z5OQHltUVIlOrHmgDSyif5UqlVcNYlrNQ/0xptoAllDzPk3NRDQhiQvIQSgiPEsKjhPAoITxKCI8SwqOE8CghvGOXkDuCLrwYq9Fu0+Wc97pWu9lS40wAS8i9sHHrinl1Ol4V2E5+mju817j4VnPqeauv86ld6YSWMLpXvni68P4Lfa27fJlMmHuz9d6JLiUcF87ttQHr9ZneG03yidRqt1u1mhpnAlhCSU6+US7EputISepQQniUEB4lhEcJ4aElZMwJsraI2ojAEnLXry9eM3/+Yqj3kdiMcX+Dh3ezdPkiWMJh+KD2yYvNU092+jpHh9yL6jcumd9MDRjYAtyHQJuFwmsaC9VbP8YfTJ8ci7bq5082Tj/dHdCN2uMy2pIV8Sp8lWJj+Q/5pdqEDy3hiOL7vEdYhS+VjlnCLKKE8CghPEoIDyChPIATQjhHRf1WHGlPKB/TTqdjGMbO7fB3DtjZvpfasYfasYfasd/Orn6/j3XUDzALGWNrRwjuLn6AhORwxyyhPLT3aD3S8YobBCLYkF+pLUlw12su367e/IHFFzDSae5x4MJrF5Zqv/2it5ilvb5VnXmteuopiwU6HzaTSmizUDa48Gr1zDOWHWn838hdv/nnnHnjK8a1LgZPJbRZ6AWNxWvm9c8Z11rbOX6jIxLxm/7ZWTwKbRZuN9i+8IIW8FLQEpIDKCE8SghvX0ICSiUkwCYm/gXJ8xDZ9h96ZwAAAABJRU5ErkJggg==</bitmap>
+        </item>
+      </items>
     </chunk>
   </chunks>
 </Archive>
