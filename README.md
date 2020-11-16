@@ -18,6 +18,8 @@ If you would like to contribute to the project, we suggest the following:
 
 - Give it a try, either by developing some already made components to warm up, or by tackling new ones that are still undeveloped! 
 
+- Submit your contributions by sending your files to [@garciadelcastillo](https://github.com/garciadelcastillo) or submitting a pull request.
+
 Thanks for your contribution! 
 
 ## Credits
