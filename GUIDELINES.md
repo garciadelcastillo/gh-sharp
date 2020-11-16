@@ -48,7 +48,7 @@ In general, while contributing to this project, please keep the following in min
 
 ### The GH Files
 
-- Each file contains two columns with multiple rows of groups of components, laid out in the same way as they are in the GH category UI (see [the template](../templates/README.md)). Horizontal lines mimic the separators in the UI. This should make it easy for the reader to find component groups in the definition based on their location on the ribbon UI.  
+- Each file contains two columns with multiple rows of groups of components, laid out in the same way as they are in the GH category UI (see [the template](templates/README.md)). Horizontal lines mimic the separators in the UI. This should make it easy for the reader to find component groups in the definition based on their location on the ribbon UI.  
 
 - Each group in the definition is a side-by-side comparison of a native GH component and our open-source C# interpretation; this helps legibility and simmetry.
 
@@ -58,20 +58,26 @@ In general, while contributing to this project, please keep the following in min
 
 - Groups will be labeled with _group tags_, not with _scribbles_.
 
-- Please adhere to color/style conventions for groups, panels, typefaces, etc. (see [the template](../templates/README.md)).
+- Please adhere to color/style conventions for groups, panels, typefaces, etc. (see [the template](templates/README.md)).
 
-- (**THIS NEEDS A TEAM DECISION**) Wherever a component has not been developed (difficult, not working, not clear, no time...), leave some kind of empty space with a small annotation saying that so and so component needs development. This should allow potential developers to identify where help is needed. 
+- Whenever a component is _kinda of working but needs more development_ for some reason (not matching the original component exactly, not accounting for multiple input types, not displaying all necessary error messages... ), do as much as you can, but flag the component as _WIP_: add a Warning message to the component indicating why it's not complete, and group it with a different color (see [the template](templates/README.md)).
+
+- Wherever a component has _not been developed yet_ (difficult, not working, not clear, no time...), leave the empty vanilla component on the file, and group it with a different color (see [the template](templates/README.md)). This should allow potential developers to identify where help is needed. 
 
 ### The Components
 
-- The core of our work is to develop components that mimic the functionality of a native GH component as closel as possible. 
+- The core of our work is to develop components that mimic the functionality of a native GH component as close as possible. 
 
-- C# components should be renamed to match the shorthand version of the original component name, with the `C#` prefix. For example, for "Interpolate" it would be `C#IntCrv`, for "Divide Surface" it would be `C#SDivide`, etc. 
+- C# components should be renamed to match the shorthand version of the original component name, with the `GH#` prefix. For example, for "Interpolate" it would be `GH# IntCrv`, for "Divide Surface" it would be `GH# SDivide`, etc. 
 
-- Components should have the same inputs and outputs as the original; naming convention will be to use the short naming version for I/Os. Some original components have identical names for inputs and outputs (`P`, `t`), which we cannot mimic with C# components. In this case, use your best judgement to rename the I/O, and choose to rename the output if possible. 
+- Make sure to use the pain bucket to force the name to show up on the component, regardless of Show Icons state.
+- 
+- Components should have the same inputs and outputs as the original; naming convention will be to use the short naming version for I/Os. Some original components have identical names for inputs and outputs (`P`, `t`), which we cannot mimic with C# components. In this case, use your best judgement to rename the I/O, and choose to rename the output when possible. 
 
 - We will leave the `out` output of the C# component for easier troubleshooting or future debugging.
 
+- If a component has some kind of special UI (e.g. "Right Trigonometry", "Point On Curve", "Transform Matrix"...), feel free to design a non-UI C# version that mimics the original spirit with regular I/Os.
+ 
 ### The Code
 
 When developing the code of your C# component, please remember:
@@ -84,7 +90,7 @@ Style guidelines for writing the code:
 
 - Each component should start with a comment referencing the author/s' github username separated by commas. It should be followed by a small description of what the component does. Example:
 
-```
+``` csharp
 // Written by @krihterlunn, @johndoe & @garciadelcastillo.
 
 // This component creates a curve that is interpolated through
@@ -92,6 +98,26 @@ Style guidelines for writing the code:
 ```
 
 - Where possible, direct RhinoCommon implementations will be preferred. The main goal of this project is to facilitate the GH to C# transition. We will decide as a team if we want to implement even lower-level examples for simpler operaations, such as the dot product, cross product, etc. 
+
+- Be verbose: avoid shortcuts or complicated one-liners, declare interim variables, avoid using `var`... remember it's an educational project for beginners :) For example:
+``` csharp
+// We want to favor this style of code:
+for (int i = 0; i < points.Count; i++) 
+{
+    Point3d p = points[i];
+    double dx = origin.X - p.X;
+    double dy = origin.Y - p.Y;
+    double dz = origin.Z - p.Z;
+    double d = Math.Sqrt(dx * dx + dy * dy + dz * dz);
+    distances.Add(d)
+}
+
+// as opposed to:
+for (var i = 0; i < points.Count; i++) 
+{
+    distances.Add(Math.Sqrt(origin.X - points[i].X, origin.Y - points[i].Y, origin.Y - points[i].Y));
+}
+```
 
 - Stick to [C# naming conventions](https://github.com/ktaranov/naming-convention/blob/master/C%23%20Coding%20Standards%20and%20Naming%20Conventions.md). Use simple, yet clear names for your variables. 
 
