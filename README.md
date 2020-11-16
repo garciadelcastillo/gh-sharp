@@ -12,7 +12,7 @@ If you would like to contribute to the project, we suggest the following:
 
 - First, take a look at the work we have done so far! All files are in the `src` folder, with the `Math`, `Vector`, `Intersect` and `Mesh` categories in fairly good shape so far! Browse through the files, double-click on the C# components and get a general sense of what the project is about!
 
-- Read the [guidelines](guidelines.md) document on the overall principles on how to develop more components.
+- Read the [guidelines](GUIDELINES.md) document on the overall principles on how to develop more components.
 
 - Reach out to [@garciadelcastillo](https://github.com/garciadelcastillo) to request a link to the spreadsheet where we are keeping track of the work pending, and if you have any questions.
 
