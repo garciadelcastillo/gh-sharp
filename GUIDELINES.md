@@ -71,7 +71,7 @@ In general, while contributing to this project, please keep the following in min
 - C# components should be renamed to match the shorthand version of the original component name, with the `GH#` prefix. For example, for "Interpolate" it would be `GH# IntCrv`, for "Divide Surface" it would be `GH# SDivide`, etc. 
 
 - Make sure to use the pain bucket to force the name to show up on the component, regardless of Show Icons state.
-- 
+
 - Components should have the same inputs and outputs as the original; naming convention will be to use the short naming version for I/Os. Some original components have identical names for inputs and outputs (`P`, `t`), which we cannot mimic with C# components. In this case, use your best judgement to rename the I/O, and choose to rename the output when possible. 
 
 - We will leave the `out` output of the C# component for easier troubleshooting or future debugging.
@@ -101,18 +101,25 @@ Style guidelines for writing the code:
 
 - Be verbose: avoid shortcuts or complicated one-liners, declare interim variables, avoid using `var`... remember it's an educational project for beginners :) For example:
 ``` csharp
-// We want to favor this style of code:
+// WE WANT TO FAVOR THIS STYLE OF CODE:
+// Iterate over all points to compute the distance to
 for (int i = 0; i < points.Count; i++) 
 {
+    // Compute distances to origin on each axis
     Point3d p = points[i];
     double dx = origin.X - p.X;
     double dy = origin.Y - p.Y;
     double dz = origin.Z - p.Z;
+
+    // Use Pythagorean theorem to compute Euclidean distance
     double d = Math.Sqrt(dx * dx + dy * dy + dz * dz);
+
+    // Add distance value to list
     distances.Add(d)
 }
 
-// as opposed to:
+// AS OPPOSED TO:
+// Compute distances
 for (var i = 0; i < points.Count; i++) 
 {
     distances.Add(Math.Sqrt(origin.X - points[i].X, origin.Y - points[i].Y, origin.Y - points[i].Y));
