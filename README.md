@@ -44,4 +44,6 @@ This is an educational project initiated by students/faculty of GSD-6338: Introd
 
 [@hariprazath](https://github.com/hariprazath)
 
+[@v-xup6](https://github.com/v-xup6)
+
 GH# logo by Yamei Chen, Ming Qin & Tongtong Zhou.
