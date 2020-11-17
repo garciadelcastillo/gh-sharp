@@ -43,3 +43,5 @@ This is an educational project initiated by students/faculty of GSD-6338: Introd
 [@range-et](https://github.com/range-et)
 
 [@hariprazath](https://github.com/hariprazath)
+
+GH# logo by Yamei Chen, Ming Qin & Tongtong Zhou.
