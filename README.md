@@ -46,4 +46,6 @@ This is an educational project initiated by students/faculty of GSD-6338: Introd
 
 [@v-xup6](https://github.com/v-xup6)
 
+[@sonomirco](https://github.com/sonomirco)
+
 GH# logo by Yamei Chen, Ming Qin & Tongtong Zhou.
