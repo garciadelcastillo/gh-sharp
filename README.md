@@ -26,6 +26,8 @@ Thanks for your contribution!
 
 This is an educational project initiated by students/faculty of GSD-6338: Introduction to Computational Design, at the Harvard Graduate School of Design, and further extended by the community :)
 
+Contributors (in loose order of appearance!):
+
 [@garciadelcastillo](https://github.com/garciadelcastillo)
 
 [@krichterlunn](https://github.com/krichterlunn)
@@ -45,5 +47,7 @@ This is an educational project initiated by students/faculty of GSD-6338: Introd
 [@hariprazath](https://github.com/hariprazath)
 
 [@v-xup6](https://github.com/v-xup6)
+
+[@sonomirco](https://github.com/sonomirco)
 
 GH# logo by Yamei Chen, Ming Qin & Tongtong Zhou.
