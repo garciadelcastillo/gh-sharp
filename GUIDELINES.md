@@ -48,7 +48,7 @@ In general, while contributing to this project, please keep the following in min
 
 ### The GH Files
 
-- Each file contains two columns with multiple rows of groups of components, laid out in the same way as they are in the GH category UI (see [the template](templates/README.md)). Horizontal lines mimic the separators in the UI. This should make it easy for the reader to find component groups in the definition based on their location on the ribbon UI.  
+- Each file contains two columns with multiple rows of groups of components, laid out in the same way as they are in the GH category UI (see [the template](templates/Template.ghx)). Horizontal lines mimic the separators in the UI. This should make it easy for the reader to find component groups in the definition based on their location on the ribbon UI.  
 
 - Each group in the definition is a side-by-side comparison of a native GH component and our open-source C# interpretation; this helps legibility and simmetry.
 
@@ -58,11 +58,11 @@ In general, while contributing to this project, please keep the following in min
 
 - Groups will be labeled with _group tags_, not with _scribbles_.
 
-- Please adhere to color/style conventions for groups, panels, typefaces, etc. (see [the template](templates/README.md)).
+- Please adhere to color/style conventions for groups, panels, typefaces, etc. (see [the template](templates/Template.ghx)).
 
-- Whenever a component is _kinda of working but needs more development_ for some reason (not matching the original component exactly, not accounting for multiple input types, not displaying all necessary error messages... ), do as much as you can, but flag the component as _WIP_: add a Warning message to the component indicating why it's not complete, and group it with a different color (see [the template](templates/README.md)).
+- Whenever a component is _kinda of working but needs more development_ for some reason (not matching the original component exactly, not accounting for multiple input types, not displaying all necessary error messages... ), do as much as you can, but flag the component as _WIP_: add a Warning message to the component indicating why it's not complete, and group it with a different color (see [the template](templates/Template.ghx)).
 
-- Wherever a component has _not been developed yet_ (difficult, not working, not clear, no time...), leave the empty vanilla component on the file, and group it with a different color (see [the template](templates/README.md)). This should allow potential developers to identify where help is needed. 
+- Wherever a component has _not been developed yet_ (difficult, not working, not clear, no time...), leave the empty vanilla component on the file, and group it with a different color (see [the template](templates/Template.ghx)). This should allow potential developers to identify where help is needed. 
 
 ### The Components
 
