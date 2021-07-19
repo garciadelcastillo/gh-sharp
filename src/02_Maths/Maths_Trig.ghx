@@ -48,10 +48,10 @@
             <chunk name="Projection">
               <items count="2">
                 <item name="Target" type_name="gh_drawing_point" type_code="30">
-                  <X>15</X>
-                  <Y>-34</Y>
+                  <X>164</X>
+                  <Y>-56</Y>
                 </item>
-                <item name="Zoom" type_name="gh_single" type_code="5">0.8500004</item>
+                <item name="Zoom" type_name="gh_single" type_code="5">1</item>
               </items>
             </chunk>
             <chunk name="Views">
@@ -8962,12 +8962,12 @@ More information: {{project link}}
               </items>
               <chunks count="1">
                 <chunk name="Container">
-                  <items count="11">
+                  <items count="10">
                     <item name="AdditionalSource" type_name="gh_string" type_code="10">
   /// &lt;summary&gt;
   /// Computes the sides of a square triangle and their angles,
-  /// given a variable amount of input angle and sides data. 
-  /// Includes sanity checks and an output message parameter 
+  /// given a variable amount of input angle and sides data.
+  /// Includes sanity checks and an output message parameter
   /// informing of what was going on.
   /// Returns false if calculations went wrong.
   /// &lt;/summary&gt;
@@ -9014,9 +9014,9 @@ More information: {{project link}}
       }
       availableAngles = 2;
     }
-    
+
     // Are angles right?
-    if (alpha &lt; 0 || beta &lt; 0 || alpha &gt; HALF_PI || beta &gt; HALF_PI) 
+    if (alpha &lt; 0 || beta &lt; 0 || alpha &gt; HALF_PI || beta &gt; HALF_PI)
     {
       msg = "Angles sum up to more than Pi, which precludes a valid triangle";
     }
@@ -9097,11 +9097,11 @@ More information: {{project link}}
     message = msg;
     return false;
   }
-  
+
   /// &lt;summary&gt;
   /// Computes the sides of a square triangle and their angles,
-  /// given a variable amount of input sides data. 
-  /// Includes sanity checks and an output message parameter 
+  /// given a variable amount of input sides data.
+  /// Includes sanity checks and an output message parameter
   /// informing of what was going on.
   /// Returns false if calculations went wrong.
   /// &lt;/summary&gt;
@@ -9195,7 +9195,7 @@ More information: {{project link}}
     return false;
   }
 
-  
+
 
   /// &lt;summary&gt;
   /// Calculate if two values approximately equal each other.
@@ -9213,10 +9213,6 @@ More information: {{project link}}
 </item>
                     <item name="CustomUsing" type_name="gh_bool" type_code="1">true</item>
                     <item name="Description" type_name="gh_string" type_code="10">A C#.NET scriptable component</item>
-                    <item name="EditorPosition" type_name="gh_drawing_point" type_code="30">
-                      <X>43</X>
-                      <Y>62</Y>
-                    </item>
                     <item name="IconDisplay" type_name="gh_int32" type_code="3">1</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">1441f99e-1355-4560-820c-89c628a93709</item>
                     <item name="Name" type_name="gh_string" type_code="10">C# Script</item>
@@ -9224,13 +9220,13 @@ More information: {{project link}}
                     <item name="OutParameter" type_name="gh_bool" type_code="1">true</item>
                     <item name="ReferenceCount" type_name="gh_int32" type_code="3">0</item>
                     <item name="ScriptSource" type_name="gh_string" type_code="10">    // Component written by @garciadelcastillo
-    
+
     // This component calculates the trigonometry of the square triangle,
-    // given any valid combination of inputs. 
+    // given any valid combination of inputs.
     // WARNING: behavior is not identical to vanilla component,
     // as the original would yield invalid combinations of values
-    // when input data is overconstrained. 
-    
+    // when input data is overconstrained.
+
     // Define terms to compute
     double computedA = 0,
       computedB = 0,
@@ -10495,7 +10491,7 @@ More information: {{project link}}
   bool ComputeTriangleFromAnglesAndSides(double alpha, double beta, double gamma,
     double a, double b, double c,
     out double sideA, out double sideB, out double sideC,
-    out double alphaOut, out double betaOut, out double gammaOut, 
+    out double alphaOut, out double betaOut, out double gammaOut,
     out string message)
   {
     double PI = Math.PI;
@@ -10523,7 +10519,7 @@ More information: {{project link}}
       {
         beta = PI - alpha - gamma;
       }
-      else 
+      else
       {
         gamma = PI - alpha - beta;
       }
@@ -10535,20 +10531,20 @@ More information: {{project link}}
     {
       msg = "Angles sum up to more than Pi, which precludes a valid triangle";
     }
-     
-    // Choose case depending on number of sides &amp; angles
+
+      // Choose case depending on number of sides &amp; angles
     else if (availableSides == 0)
     {
       msg = "Need at least one side to compute the triangle";
     }
-      
-    else if ((availableAngles == 0 &amp;&amp; availableSides &lt; 3) || 
-      (availableAngles == 1 &amp;&amp; availableSides &lt; 2) || 
+
+    else if ((availableAngles == 0 &amp;&amp; availableSides &lt; 3) ||
+      (availableAngles == 1 &amp;&amp; availableSides &lt; 2) ||
       (availableAngles == 2 &amp;&amp; availableSides &lt; 1))
     {
       msg = "Not enough information to compute angle";
     }
-      
+
       // If one side and two angles, use Law of Sines
     else if (availableSides == 1 &amp;&amp; availableAngles &gt; 1)
     {
@@ -10559,7 +10555,7 @@ More information: {{project link}}
       message = "Computed from law of sines";
       return true;
     }
-    
+
       // If two sides and one angle
     else if (availableSides == 2 &amp;&amp; availableAngles == 1)
     {
@@ -10599,7 +10595,7 @@ More information: {{project link}}
         return true;
       }
     }
-    
+
       // If three sides
     else if (availableSides == 3)
     {
@@ -10610,7 +10606,7 @@ More information: {{project link}}
       message = "Computed from law of cosines";
       return true;
     }
-      
+
 
     // If here, something went wrong,
     // so zero everything and return false.
@@ -10624,10 +10620,10 @@ More information: {{project link}}
     return false;
   }
 
-  
+
   /// &lt;summary&gt;
-  /// Calculates the sides of any triangle given its three angles, 
-  /// and at least one valid side. 
+  /// Calculates the sides of any triangle given its three angles,
+  /// and at least one valid side.
   /// Assumes input angles are valid (no sanity checks).
   /// &lt;/summary&gt;
   /// &lt;param name="alpha"&gt;&lt;/param&gt;
@@ -10640,8 +10636,8 @@ More information: {{project link}}
   /// &lt;param name="sideB"&gt;&lt;/param&gt;
   /// &lt;param name="sideC"&gt;&lt;/param&gt;
   /// &lt;returns&gt;&lt;/returns&gt;
-  void LawOfSinesFromAngles(double alpha, double beta, double gamma, 
-    double a, double b, double c, 
+  void LawOfSinesFromAngles(double alpha, double beta, double gamma,
+    double a, double b, double c,
     out double sideA, out double sideB, out double sideC)
   {
     // https://math.libretexts.org/Bookshelves/Precalculus/Book%3A_Elementary_Trigonometry_(Corral)/02%3A_General_Triangles/2.01%3A_The_Law_of_Sines
@@ -10652,26 +10648,26 @@ More information: {{project link}}
       sideB = sideA * Math.Sin(beta) / Math.Sin(alpha);
       sideC = sideA * Math.Sin(gamma) / Math.Sin(alpha);
     }
-    // If side B is available
+      // If side B is available
     else if (!Equals(b, 0))
     {
       sideB = b;
       sideA = sideB * Math.Sin(alpha) / Math.Sin(beta);
       sideC = sideB * Math.Sin(gamma) / Math.Sin(beta);
     }
-    else 
+    else
     {
       sideC = c;
       sideA = sideC * Math.Sin(alpha) / Math.Sin(gamma);
       sideB = sideC * Math.Sin(beta) / Math.Sin(gamma);
     }
   }
-  
-  
+
+
   /// &lt;summary&gt;
-  /// Calculates the sides and angles of any triangle, 
+  /// Calculates the sides and angles of any triangle,
   /// given two angles and one side, including a pair of
-  /// opposite angle-side. 
+  /// opposite angle-side.
   /// Assumes all inputs are valid and sufficient (no sanity checks).
   /// &lt;/summary&gt;
   /// &lt;param name="alpha"&gt;&lt;/param&gt;
@@ -10687,8 +10683,8 @@ More information: {{project link}}
   /// &lt;param name="betaOut"&gt;&lt;/param&gt;
   /// &lt;param name="gammaOut"&gt;&lt;/param&gt;
   /// &lt;returns&gt;&lt;/returns&gt;
-  void LawOfSinesFromSides(double alpha, double beta, double gamma, 
-    double a, double b, double c, 
+  void LawOfSinesFromSides(double alpha, double beta, double gamma,
+    double a, double b, double c,
     out double sideA, out double sideB, out double sideC,
     out double alphaOut, out double betaOut, out double gammaOut)
   {
@@ -10705,7 +10701,7 @@ More information: {{project link}}
         gammaOut = Math.PI - alphaOut - betaOut;
         sideC = sideA * Math.Sin(gammaOut) / Math.Sin(alphaOut);
       }
-      else 
+      else
       {
         sideC = c;
         gammaOut = Math.Asin(sideC * Math.Sin(alphaOut) / sideA);
@@ -10713,7 +10709,7 @@ More information: {{project link}}
         sideB = sideA * Math.Sin(betaOut) / Math.Sin(alphaOut);
       }
     }
-    
+
     else if (!Equals(b, 0) &amp;&amp; !Equals(beta, 0))
     {
       sideB = b;
@@ -10725,7 +10721,7 @@ More information: {{project link}}
         gammaOut = Math.PI - betaOut - alphaOut;
         sideC = sideB * Math.Sin(gammaOut) / Math.Sin(betaOut);
       }
-      else 
+      else
       {
         sideC = c;
         gammaOut = Math.Asin(sideC * Math.Sin(betaOut) / sideB);
@@ -10733,7 +10729,7 @@ More information: {{project link}}
         sideA = sideB * Math.Sin(alphaOut) / Math.Sin(betaOut);
       }
     }
-    
+
     else
     {
       sideC = c;
@@ -10745,7 +10741,7 @@ More information: {{project link}}
         betaOut = Math.PI - gammaOut - alphaOut;
         sideB = sideC * Math.Sin(betaOut) / Math.Sin(gammaOut);
       }
-      else 
+      else
       {
         sideB = b;
         betaOut = Math.Asin(sideB * Math.Sin(gammaOut) / sideC);
@@ -10754,11 +10750,11 @@ More information: {{project link}}
       }
     }
   }
-  
-  
+
+
   /// &lt;summary&gt;
   /// Given an angle, and the lengths of the non-opposite sides
-  /// of that angle in a triangle, returns the length of the opposite side. 
+  /// of that angle in a triangle, returns the length of the opposite side.
   /// &lt;/summary&gt;
   /// &lt;param name="angleA"&gt;&lt;/param&gt;
   /// &lt;param name="sideB"&gt;&lt;/param&gt;
@@ -10767,17 +10763,17 @@ More information: {{project link}}
   /// &lt;param name="angleB"&gt;&lt;/param&gt;
   /// &lt;param name="angleC"&gt;&lt;/param&gt;
   /// &lt;returns&gt;&lt;/returns&gt;
-  void LawOfCosinesAngleTwoSides(double angleA, double sideB, double sideC, 
+  void LawOfCosinesAngleTwoSides(double angleA, double sideB, double sideC,
     out double sideA, out double angleB, out double angleC)
   {
     sideA = Math.Sqrt(sideB * sideB + sideC * sideC - 2 * sideB * sideC * Math.Cos(angleA));
     angleB = Math.Acos((sideC * sideC + sideA * sideA - sideB * sideB) / (2 * sideC * sideA));
     angleC = Math.PI - angleA - angleB;
   }
-  
+
   /// &lt;summary&gt;
   /// Given the three sides of a triangle, returns
-  /// the angles at the opposite corners. 
+  /// the angles at the opposite corners.
   /// &lt;/summary&gt;
   /// &lt;param name="sideA"&gt;&lt;/param&gt;
   /// &lt;param name="sideB"&gt;&lt;/param&gt;
@@ -10786,17 +10782,13 @@ More information: {{project link}}
   /// &lt;param name="angleB"&gt;&lt;/param&gt;
   /// &lt;param name="angleC"&gt;&lt;/param&gt;
   /// &lt;returns&gt;&lt;/returns&gt;
-  void LawOfCosinesThreeSides(double sideA, double sideB, double sideC, 
-    out double angleA, out double angleB, out double angleC) {
+  void LawOfCosinesThreeSides(double sideA, double sideB, double sideC,
+  out double angleA, out double angleB, out double angleC) {
     // TODO: check that no side is longer than the other two added
     angleB = Math.Acos((sideC * sideC + sideA * sideA - sideB * sideB) / (2 * sideC * sideA));
     angleC = Math.Acos((sideA * sideA + sideB * sideB - sideC * sideC) / (2 * sideA * sideB));
     angleA = Math.PI - angleB - angleC;
   }
-  
-  
-  
-  
 
   /// &lt;summary&gt;
   /// Calculate if two values approximately equal each other.
@@ -10815,8 +10807,8 @@ More information: {{project link}}
                     <item name="CustomUsing" type_name="gh_bool" type_code="1">true</item>
                     <item name="Description" type_name="gh_string" type_code="10">A C#.NET scriptable component</item>
                     <item name="EditorPosition" type_name="gh_drawing_point" type_code="30">
-                      <X>54</X>
-                      <Y>167</Y>
+                      <X>3</X>
+                      <Y>413</Y>
                     </item>
                     <item name="IconDisplay" type_name="gh_int32" type_code="3">1</item>
                     <item name="InstanceGuid" type_name="gh_guid" type_code="9">337e15c6-b343-4bd0-b8b5-2297e8d962bb</item>
@@ -10826,7 +10818,7 @@ More information: {{project link}}
                     <item name="ReferenceCount" type_name="gh_int32" type_code="3">0</item>
                     <item name="ScriptSource" type_name="gh_string" type_code="10">    // Component written by @garciadelcastillo
 
-    // This component calculates the trigonometry of the square triangle,
+    // This component calculates the trigonometry of any triangle,
     // given any valid combination of inputs.
     // WARNING: behavior is not identical to vanilla component,
     // as the original would yield invalid combinations of values
@@ -11375,7 +11367,7 @@ More information: {{project link}}
     <chunk name="Thumbnail">
       <items count="1">
         <item name="Thumbnail" type_name="gh_drawing_bitmap" type_code="37">
-          <bitmap length="5046">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</bitmap>
+          <bitmap length="6296">iVBORw0KGgoAAAANSUhEUgAAAJYAAABkCAIAAADrOV6nAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAABgtSURBVHhe7V1ZUFzXmXbykKc85CUvyWueplJlV03iVEaVFydxPI4rmVixrCK2pUypJkl54qQyLmdmtFoLQiCJFohFArFIQliA2Ommm973vel93xsaml5Z20LyzHfvuRAgAikClNDcT12Xc8/9z7n3nO/82719Wy+xKAX8H4s9i79Q+Nprr927d29wcLCzs9Plck1OTsbXY2Jiwu12YwvhL9ZgdZcUsF13mAZVSYPZX9OKYMPR9dis/vmBc2WzWbvd/tfD3FvAQP5CIbbf+MY3hoeHe3t7/X4/qGKkVoAaj8cTjUYh/PDhw88//xxbYKlYJLsLC4vYLi4uFoufLy8/fPRomQgAc7Oz8/MLOAo8evQINUtLSygAjx89Iq1Qg3o0XF5eRj0ao4BtcalI/6VOsVNA/zMzMw6Ho6Qo/MEPftDc3DwyMtLX1xcKhZ5IYTAYGO5/wOP2jfB4ucKsz+OORKI6tcJgGg8F/Tyx1GQy6A1GndEoVqhG+WMquToUicSjkSHeMKZMLBEYjHrh2JhSpebLZeJRAZcrGOQOGU0WqWjMYLampibFIskIl8cbHZUo5SIhny+WSOViy7h1YXFxB1ksTQqBVCoFLRSJRIlEYnp6em5ubmFhAUMl0qDQ6/UG/P7FxQUcKhaLUB1Mx+zsLArz85T0PHSNKs8XZuey2Vw2k80XCqheWFpE//l8Dm0z6XQum8vPzmZm0pOTU9MzM9C/2UJhfmEBHOVo4Epm5+dykENH83PoBCpPWcDHj2lD+AXUkmaC2oUiU/q6vPyYBqXZTIneLC/TrK1DaVJ47Nixt99+Gx7xd7/7nU6nUyqVf/rTn44ePTowMJBMJkEqKPR5vWaTMRaPJieTIGtyIhEIhROJWDqTBU/JqWQiHsekJPFJJqdSKUwWWFxcWEBNLBKfggSOTE9lczmsgEQ0MjGRBM/xeGIKmJ6Ox8I4SxLFqal4LI7lMFvI4yyJOHX2RHwiGotFI9FILAZmwdnUVDIUCU8mpsB6Pp+HTCyeQPPJicnJxESCoieRyeX/Wn1Lk0Km9NJL3/zmN/v7+xsbG8nuxx9/DJ3A7ABQQaVKbrUajBqd1xeAqXX5fA6H2WSxpaaSUrlEp9XqdFqFVGmx2ZU6PSbfYrGmUymJSCSXKMXCsc/udamNRpvNlslk1FJZcnLG5bTq9AaVQimRKQwGtUIhHeFyYUFFYuns3FzQ75OJxQI+X8AXaDUGkVisUxpUGo3d6YLqa3Vqnkhst7mxtgLBkNUCOPzBsEmvt5ltgXBQJBBozONfPP6CoW4FpUkhVBDhDMoHDhxwOp0dHR1f+tKXsNva2orphjQUMRQMyEQilVqjNRoFIq7FaBy3mASjY3qtTjzGF44JxUKpzemdzee1CuWYcNRk1KKWz+NKJUKj3iAWCbRavdVskorFUFKcFFMJUPaRMnm0WaSMJGUScZRENHQldRx/UIn4FGXQAD0mYuiBMqPLy5Qg6QqgCzhSXFoitK0FmoBC+IVS84U/+9nPUP7ggw9QFgqFKH/5y1/WaDTpdBrS8I58Ph+BOKYA4ePC4vzSEhVGwlTCNRbyeWyBpaUiJqi4tJjOzGCeZ6FKiEdnC/CCsHUIX2FXARJ/rp1sMv9IIGhSKW9HWMEuroc6iuPYoXfpFvB1VCVhGpVEHgUwR/X7BUUwaghta4GjsNwwNjD4ZC72KDBAmkCaQrVa/e1vfxvlsrIyaGF5eTnKX/3qV2GbYEghnUrNDA8Ni0XCKDxWfAJhRiGXT05OQxsm4lGwlMtmA77g1FQKLgruaio1PTExCRcWCUeQU6QRvCTh5JKoo7zl1DS4RLexRBRbuMhwJBKLxwOh0Ew6nYjF6P6zkWh0JjXt9ftxNBqJTKdS09NJu9MJq57JpMPhQDSemJtfyOUyuOZcvhAJhRxOF3xzPBYNR6LhcDgWnyiu5D/AWgqRB5emL1yLr33tawhQCYWYtUg4DF9otujNemMwHE1Pp4wGC1zdKLc/MRn3OB3DAyNyhUqn141JpR6fW63WanRq1BSyBY1MqTdZjDqNSqOGwbXYHVgBDrvTZLM4HQ6n1y1TyDU67TBvFBGRWDDq8oWSiZhar9WqVahUKFUWk0mlVvsCIaPFKBZLjEaj2+NAb/5gNBLy6XR6REYw2yM8vtvr02s1KpUGZkOl1iEsAm0kfgbAIzQYhhRpbulTiNBGq9XChEIaFAYDAZFoTKtVavVGm9U6PDwklkt1Wo3VaTca9EKFOjtbMGhVHq8nHo2q5TL+KE8ikRgNJrFQKBMroT1yqUwkluuNhvTMhEg0KhKKnQ7bmIgv06gWi8XJeITPExUKBbPRwOXxvYGQJ+DtGxxxu3wWs0GBFaHUIFKVyKS2ccvAQLdSoQRn+ARD0YDXJZPJ5SqlSCzRmE2zC/NquQjaG/Q7kOzK6Fipb3jQEwiARJjhEgxnOjs7v/KVr6BcUVFhtVoR3aD8ve99D0MFeZDGFss2Eok8/uIRXFqxuIRQHvYTXg2TAr8I/wbHs7gwj6PwgvTRQjabxfKHP1y9d0PdqVlYhLtaoPLLWUjC2GZyyAAx7fPIJtE1nCV6npubh3w6k8EWOWUBmcTcHMpIIJCFptMziLPQP9wwckrU5PMFCKASu+gESwHaNj83S6UchUI+l0WaMTdPXR7RwlKjENpGymKxGLvvvvsuym+99RYmhUgTCnUadQLJVyw+k87AEiJNs9ms0Tj8WQx+KBgMIh2D04KvW360jPQOOR30Bi4RLjASjWEFYJ5TqclwFNYvBE+IULdYfIjghPgqTC5l66gAk7qpRmqwpSsokDKpB1YrV0WoStrnoUybTVJNAS4QcqiETAlS2NXVRcqIa6BYSC1Qfu+996AQRBosIArn80a0SrVj3O72+bMzGavVgo/epHV7nEj74JC8Lo9GoXTZvYvFJb/Pq9UotFqDy2bT6vUyOXJFfXJqJpuZdvs8Jr3aYLRYbfZcfhbzi5l9YShNCpEIovD1r38dPMGIEQpPnDixlkK3241ADsJUcgbloIJ4RO3kwzx8wEpHAZkCPVewZ5+jEnj4+UMiQPSIiEGJKIkXjtKk0Gw2X7p0qa2tDVQhWxofH0ckEggEsEukUXC5XNgSJvY0MAQ4yFJ72AQvBSUDZ4kEsrIYolDEBRghykQa5Pn9fqxcCET3ODAc+PUnPhbdW1hHIYiB8m09JMiARTCN8e9pYAjwF8yo9jLWUcjUPQ1gEepYGmCGtJfxPBSy+IcCS+GeB0vhnsc6CuHkdhbMSVjsJtZRGN5prGYjLHYPGylEargKEIAEY0MlgBrkHjM0UqkUcizC1lphVAaDwVAoxOribmMdhVNTU6CEpIa5XA4EmM3mdDqNXcTf5BAoQcovFosHBgZGRkZ6e3vRC2RAmEqlor/BRAGSYJGl8AVgHYVLS0t6vR6TjrT3z3/+M+h5//33kciDGJAEOkkZytfe3v6LX/ziO9/5Tnl5eSAQgNoJBILa2tqFhYXx8XGXy4VOWApfDNZRePPmzQ8//PDYsWMg71vf+taNGze+//3vl5WV1dTUNDc3Hzp06OOPPwYrUMpHjx51d3d/9NFHaNXS0nLgwIHz589fuXIFlYcPH37ttdd6enoymQxL4QvAOgrr6+tPnz796quvgsLf/OY3sJZHjhyxWCzvvfce1A4UfvLJJz6fD4qYz+fb2tp++9vfotWFCxfAn8FgAPfgGxqMTurq6iDDUvgCsI7CN998s6qqChTCz/30pz+FFh49etRoNIK8u3fvfvrppy+//DIMJtSrUCg0NTWRL7qdPXv24sWLarUawidPnqyuroaNhdYSb8pSuNtYRyGPxztz5sy1a9cQm9y6daujo4PL5ULt+vr64CNPnToFzSOhDQIWrVbb398PVYOySiQSj8czOjoKARjSV155paurizWkLwbrKKS+ckK9GDEHnqBn2WyWPGxCAZxRr0kUCqCEsIIa1COXINkFxIrF4uDg4O9//3uQTTJClsIXgHUUEnqeG+gOlANQTfhLNiJ9MVhHIezn9gHaCJBsINNnKdxtrKMQ1m8HwZyBxS5jHYVMHYs9hdKhEK639MCMbUuUAoVwt3C9cMNwvc8N9MCUNgEEIvSt/xVEmT/0Xf5nbE4KW4PIrEo+NZgoHQqxpb8LAx9MfWF8A8iiBpj99UAnCKGp79JsDmRNkPR43B6vx+H2hCPRQMCPbBh5MyOxJZLJJJojmdbpdEiyt4BGoyEyFPPPEA+WCIWYHQTAMplSJtPI5Ur6+2kb4XDYrTYr+e7aWqCG3MFHmptOpzHXBCAVoB670JiZScnlKpXGohBIbFx+Y8Otrp4Bs8khEilcLhdSKUZuepo0BJiOaCB1tlgsoMfhcDhpoBUpAKgEcDE6jaa9tV2uVJuMxvHxcWj5fqEQ6oUpucZpKi+/MTDAhxHyer3QDwLoaFdX9+BAn0iugHlialeAla5Wq0+fPn3jxo2GhoaRkREejzc8PIwCwKXB5/Pv3euoqLhSWdXUc583JeHV/fLN2pr26urWxhudVVWXR0dHiSRAGqKHtUB9VVUVriqToRYKAI5TNOUzM2msHgJSjwWBhdXc3Iyh7R8KIyCjoaHtypWbra0dSqVCJpNJaaAAYIrFYjFVIrVrIJfLwZDJZIISoNDZ2Ynpg1pDLwF0S1YDtLeurvnchfqKi42NP/mnof94q7q84Vx5w/nztVwuD+sAYkSSNFzNknEIW1ynwWBwjFvn5hYikSCiL4lErFDIxsaEbk8Ik78BhUIBKruPtJDMEfVbGHTEQKZvLcg8MjvrQZ53ErsHPbDZbA8ePMAuuRuMLSnAEur1xu7ugZ7uvvudPZ1dAw8eDPb1jfT3D8MGEHkC2vdtBDrHubBKiD9mYhWaYOySgawCzGEpPOO9kdKhEMPGTG0xiZuByKMTAhgxkUikVCpTqRRTRQMngptLp2eoTyaTzsDm0eX0DDpghLYEzgIWV9V0LVC5AeAPZ8S40JAe5aYoKQrpidouMNFY++RnFJiqnQO1ZJ4ZGBFL4XMCNhMRDULE3WDx2cFS+PxAlIjMTCKRgEumilYgMArgKGwstmSXgBHaUbAUPj/AFjocGBhAkLJag/6RybndLqRrRjppQ2yCGmR3CESJ2M6CpXBbgP4ht0N0SljE1mq1yeU6oVDB4Vy7e/dube11qVRjNDp1OptUqkIUCZpJ250CS+G2ANsIX9jb24u4E9zAbJpM5tu3Bxsb7x08eLC2tubXv/53TvWtq1eba2pvNzd3qlQbI9jtg6Vwu4AiCoVCxDXgD4m23e5oa+u7fr398OHDp06dev/9D6oqkddf41xrr61t4fG4IJtpuQmwFHC11I3aLUA/Z8VfemRsUrFtgDwENX19fUgT793rrK+/U1FRX1ZW9oc/fPTzn/9bQ0NHR8dIS0tfe3s3DCnyS6bZk4CjyFXUajW5i70ZcFQmk0FMq9ViUMj60ZYZ5yZgKXwKoIvIx/V63fXr9Vcu3zh1+so777zzxz/+8fXXX6+tbb91q6ehobO19X4yOQlJEqwCKGNLolaifCiAIRBDx0QUEAR5aKyERS6P12vQ6e6231GqtSaTyWAwkEGRYW4GlsKnAxzk83mLZfz69Tvl5dcPHvzlpUuXfvSjH128WFtX39HY2Hn1auPw8LDZbAZDUCC5XC4WiwUCAYwwl8vFoaGhIQRH9G1uTy6Xg8nNZDLoOUnfGEql0jDUDHCmfH52dtbv9+2v29y7SiEAldLp9BxO65kzV95++yCHw3njjTf+57/PX61ura+/V15+7c6d2yqVCuRhC20DnYiGfPRDEuLYoIVWq9Vhtc3NzUcioXgsKpVKlAqZUCjybHKbG6kL2uLsZJibAcIshU8H7KJKpTl3rvaTTy5897uvwh2+/PIrJ09erqpqunCh/vLlRhhSKBZtRCn7iSQEnK3erUUPKJPb3LhUcs+dutkdDoMk+u864CgM7L67zY0Cma/dACjxen09PQNdXf0cTs3FixU1NXXYffBg8P79Pi5XwMhtCbAI2kAkrnYDULkBhDwc2kcUYs3Ss7ErwJxi9qFU+NBPJ9IIWOhdqBfYoS7gWUDr2LOCjGhfUEgAQ1p6YMa2JUqHwn0LlsI9D5bCPQ+Wwj0PlsI9D5bCPQ+Wwj0PlsI9D5bCPQ+Wwj0PlsI9j9KhMFGKYMa2JUqEwij9qu0/PiJ/C0Irj4u3RilQiNVKHrBhwM8NZtq2BM4Vi0XjsXgC/2hQu/QzEkZiS+Asfr+ffoVtc9AvxPi8XkhiRBjXU3WxRCjEgqWe2lGjfcKEYvGjcjOeMFNomFz5/6bXYnINpqenMb92u2PcOm40jVtMdpPJ7HS5rVYbGpLH9FsAzXEi8rUM8kL2X8NgMGjUav4oX6lS7btvsGGoWMFisVwiUSmVavK1sFVg12g02h2O1W+PrQU5ivkiD3LBHPok6wCVlE7Qr5M5nY6e7n7ukKKH19ui/c8PTxxrbe4RCjV9/XyBYAxi6GcLQEAoFOJEuE7qdTS/H50D0DOUaQWk6s1GY9dnXVq90Ww2y+VyMjp6lJuiRCjEnFss45WX6i5W3OTzxVAtMikEmCexcGxgcLi3txeqwNSuANopEAjOnDnT2NhYV1c3PDw8OjpKvVu98q42QL/9e+/c2YpL51tO1/7X2cF/lrnbr9TVnvv0enV1S2VlJQTol7Q3BfrkcDhet7tQmE3NpLBYQGogEAyFwlPJ1NIKisXiQ/r/68d1trS0YGj7hUKYSYfDWVvbXF19s6PjvkqlpN7JXgOpVAolAFXM/hqQF7Xtdjt0RSQSffbZZ9AGGEYYTxhAFGADgVwu29n5oOJi48mzF6411t8fvHO2sqKqsqm8vAa2NJfLke8+bYZsNuvzeR1W22xhLhIJQseVcrlCrpCIpPB6mPwNQIc2mw3La79QCItEiCS+DdZpAyAQDlNfXWH21wC6ALNJOMNEw9h2d3cTX4g+V4GjUBrYN5vVYTJadVr4Q5tlfBwTzUhsCfSGa4Adh1kOBijjiYuhARsRYAzCCrCYHA4Hrg2H0ZYZ5yYoHQpRwDRRgcff9p42A3qeKWQyGfIbClAdpmoF6Jpo5HowL7A9FTgLLhKK9SzAqoIwWZrUIDdHSVFIT9R2gYnG8h8cHIReMlV/J4BFlsLnBDRraGgIBnatdr54sBQ+P5BaIPaB2/v7KiJL4fMDXpC83QIumaq/B1gKnx/IJRAQ8ni8tRTCqNJvSUzSOQIFaocG5BmhHQVL4baA3vr7+5mdlZRgfNyKD+LVsbExqVSGss1mR1KI7c6enYClcFuA/o2OjlosFoQ22EXmgLJAoBocFJ48ebKtrfXs2XNcrlSlGpdKjVyuCBcAdSRtdwoshdsCbCPya+T4VN5H36Axmy0tLb01NW2HDh3icKrLyn5VUV578mRlxaXGazW3BgcHyFufWwCqTAzvM4KlcLuAImq1WrDoon9u1GQy37rVw+G0HDly5Pjx44cOvXuNcwuMNjR23rx512QyEn3dArhCH/27iluA3P5GgYyIpXC7QMxit9uRIwJVVVeqr9w882n1O++8c/TokTfe+Ne6uju3bw80NXXfufMACeTaJBLlVZ2DQgNYEE6nU6VSkYdKT4TJZJJJpUNDwxqtFmIYEUvhDgBWFESCHcwsdO78+RoY0srKSz/+8evV1beamroaGjobG28HgwFoIWERBjBC/0oxlMlN/RoxBSwFxEceL/VD0LhagNxIi0QjaItKIBgKaVWqgf5Bt9cHLjUaDRkUPcpNwVL4TIAOwRfW1LSfO8c5ePCXly9Xvf76T47/b3k1p7Wx8bMLFzg1Ndf4fD7RV4A8qEJagphIIBAggkVlc3PTZGKiUChMTU8lJyYcDqfL6fa4fel0bpnGw4cPHz9+DCKwRWI6MDAAJcbZyTA3A0vhMwGKqFZrKyubjh+/9MMf/vDEieP/cuDAiROVHE5bdXVbVVWDzWaFGLk9jQKmngRBVP5Ig34G4vD7/PlcLhwJh3w+kKRWaZQK9fR0BpO/AdBj6OX+elKBLfFAu4FUahpZIIdzs6qq/vDhXx06dLis7P1qzs3r11uvXr3Z0nKPZP2M9JMAdwjTCqVDoIuYZeVhE/UIDCEO+f7AKshvru+viJQ8WsPK3T3EYlE4LZwIZ8TkYks/a/Tjg1NTXu1pQKtnESOAMLrFKfYFhQCmhlrTuwyc5YnAjDMSOw10zoxwc5QIhQBWa+mBGduWWEchiz0KhkIWexgvvfT/OU0lxJQbqt8AAAAASUVORK5CYII=</bitmap>
         </item>
       </items>
     </chunk>
