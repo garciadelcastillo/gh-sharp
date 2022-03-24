@@ -50,4 +50,6 @@ Contributors (in loose order of appearance!):
 
 [@sonomirco](https://github.com/sonomirco)
 
+[@thekaushikls](https://github.com/thekaushikls)
+
 GH# logo by Yamei Chen, Ming Qin & Tongtong Zhou.
